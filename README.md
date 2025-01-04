@@ -34,7 +34,7 @@ Understands context and intent, ensuring personalized responses.
 
 1..idea
 
-2.dataset:-This folder likely contains datasets used for training, validating, or testing your machine learning models.
+2.dataset:-This folder likely contains datasets used for training, validating, or testing your machine learning models(only Image Recognition dataset).
 
 3.model(firstaid_steps.h5):-This file is a saved Keras model, which may be trained to predict or provide first aid steps based on user input 
                             or symptoms.
