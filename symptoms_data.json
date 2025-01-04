@@ -1,0 +1,805 @@
+[
+    {
+        "tag": "burns",
+        "symptoms": [
+            "A feeling of intense heat",
+            "A hot, stinging sensation",
+            "A searing pain",
+            "A sensation of burning or scalding",
+            "A feeling like your skin is on fire",
+            "A hot, painful sensation",
+            "A scorching feeling",
+            "A fiery discomfort",
+            "A sensation akin to being burned",
+            "A hot, irritating feeling",
+            "A painful, fiery sensation",
+            "A feeling of extreme warmth",
+            "An intense burning feeling",
+            "A sensation as if heated objects are touching the skin",
+            "A sharp, hot sensation"
+        ]
+    },
+    {
+        "tag": "cuts_and_scrapes",
+        "symptoms": [
+            "Increased redness and puffiness",
+            "Enhanced skin color and bloating",
+            "A reddened and swollen appearance",
+            "Elevated skin redness and swelling",
+            "Inflamed, reddish skin",
+            "Skin with heightened redness and bulging",
+            "Flushed and swollen area",
+            "An area of increased color and swelling",
+            "Redness coupled with noticeable swelling",
+            "Skin showing significant redness and enlargement",
+            "A flushed and distended area",
+            "Bright red skin with swelling",
+            "Inflamed and engorged skin",
+            "A red and swollen condition",
+            "Reddish swelling on the skin"
+        ]
+    },
+    {
+        "tag": "heart_attack",
+        "symptoms": [
+            "Fluid-filled bubbles on the skin",
+            "Raised, watery sacs on the skin",
+            "Small, swollen areas filled with fluid",
+            "Painful, liquid-filled bumps",
+            "Transparent skin bubbles filled with fluid",
+            "Raised areas with liquid underneath",
+            "Fluid-filled pockets on the skin",
+            "Tender blisters with a liquid core",
+            "Small, fluid-filled sacs on the surface",
+            "Bumps filled with clear or yellowish fluid",
+            "Blistered patches on the skin",
+            "Fluid-filled blisters causing discomfort",
+            "Raised skin lesions with liquid inside",
+            "Blisters with a fluid-filled appearance",
+            "Tender, fluid-filled vesicles"
+        ]
+    },
+    {
+        "tag": "migraine",
+        "symptoms": [
+            "Discomfort or ache",
+            "Sharp, intense pain",
+            "Throbbing sensation",
+            "Persistent, aching pain",
+            "Dull, constant pain",
+            "Severe or acute pain",
+            "Nagging discomfort",
+            "Stabbing pain",
+            "Soreness or tenderness",
+            "Persistent pain sensation",
+            "A feeling of distress or agony",
+            "Cramping pain",
+            "Burning or stinging pain",
+            "Painful, uncomfortable feeling",
+            "Painful, throbbing sensation"
+        ]
+    },
+    {
+        "tag": "asthma_attack",
+        "symptoms": [
+            "Skin flaking off",
+            "Surface skin shedding",
+            "Exfoliating layers of skin",
+            "Skin coming off in layers",
+            "Flaky skin texture",
+            "Shedding outer skin layers",
+            "Peeling or exfoliated skin",
+            "Skin sloughing off",
+            "Dry, flaking patches of skin",
+            "Outer layer of skin peeling away",
+            "Skin shedding in flakes",
+            "Exposed underlying skin",
+            "Dry, peeling skin surface",
+            "Stripped skin appearance",
+            "Skin coming off in small pieces"
+        ]
+    },
+    {
+        "tag": "fainting",
+        "symptoms": [
+            "Persistent urge to scratch",
+            "Irritation causing discomfort",
+            "A feeling of wanting to scratch",
+            "An annoying itch sensation",
+            "Persistent skin itching",
+            "An urge to scratch the affected area",
+            "Itchy feeling that causes irritation",
+            "Constant, bothersome itch",
+            "A sensation leading to scratching",
+            "Skin feeling persistently itchy",
+            "An annoying feeling prompting scratching",
+            "Uncomfortable itching",
+            "Skin feeling raw and itchy",
+            "Itching leading to discomfort",
+            "Persistent itching causing distress"
+        ]
+    },
+    {
+        "tag": "food_poisoning",
+        "symptoms": [
+            "Skin lacking moisture",
+            "Rough, flaky skin texture",
+            "Parched skin feeling",
+            "Skin with reduced hydration",
+            "Skin appearing cracked or chapped",
+            "Rough and dehydrated skin",
+            "Skin lacking natural oils",
+            "Dry, tight feeling skin",
+            "Skin with peeling or flaking",
+            "Skin that feels tight and rough",
+            "Lack of skin moisture",
+            "Skin feeling rough and flaky",
+            "Dry and irritated skin",
+            "Skin appearing dull and lifeless",
+            "Uncomfortably dry skin texture"
+        ]
+    },
+    {
+        "tag": "muscle_strain",
+        "symptoms": [
+            "Sensitivity to touch",
+            "Pain upon contact",
+            "Soreness in the affected area",
+            "A tender feeling in the skin",
+            "Painful or sensitive when touched",
+            "Delicate area with discomfort",
+            "Tender, sore spot",
+            "A feeling of pain with pressure",
+            "Sensitivity leading to discomfort",
+            "Painful on light touch",
+            "Sensitive and sore skin area",
+            "Uncomfortable sensitivity",
+            "Tender and painful to the touch",
+            "Affected area feeling sore",
+            "Tenderness causing discomfort"
+        ]
+    },
+    {
+        "tag": "appendicitis",
+        "symptoms": [
+            "Marked skin damage",
+            "Permanent skin lesions",
+            "Visible marks or lines on skin",
+            "Residual skin damage",
+            "Discolored or textured skin patches",
+            "Scars from previous injury",
+            "Permanent marks left on skin",
+            "Fibrous tissue formation",
+            "Evidence of healed wounds",
+            "Skin with long-lasting marks",
+            "Textured or discolored skin areas",
+            "Residual skin imperfections",
+            "Visible scarring from injuries",
+            "Permanent blemishes or marks",
+            "Skin with noticeable scarring"
+        ]
+    },
+    {
+        "tag": "pneumonia",
+        "symptoms": [
+            "Increased size or puffiness",
+            "Enlargement of the affected area",
+            "Edema or fluid retention",
+            "Raised, swollen tissue",
+            "Inflated appearance of skin",
+            "Bloating or distension",
+            "Accumulation of fluid causing swelling",
+            "Puffy and enlarged area",
+            "Swollen tissue or skin",
+            "Inflated and distended region",
+            "Fluid build-up causing swelling",
+            "Increased volume of affected area",
+            "Tender, swollen spots",
+            "Swollen and bulging appearance",
+            "Skin with noticeable swelling"
+        ]
+    },
+    {
+        "tag": "pancreatitis",
+        "symptoms": [
+            "Formation of fluid-filled bumps",
+            "Skin forming blisters",
+            "Fluid accumulation under the skin",
+            "Raised areas with liquid inside",
+            "Formation of skin vesicles",
+            "Blistered skin surface",
+            "Fluid-filled areas causing discomfort",
+            "Raised bumps with clear fluid",
+            "Skin with blister-like lesions",
+            "Tender, fluid-filled bubbles",
+            "Blistering skin condition",
+            "Raised areas with liquid-filled sacs",
+            "Painful blisters on the skin",
+            "Fluid-filled vesicles on the surface",
+            "Blister formation on the skin"
+        ]
+    },
+    {
+        "tag": "sprain",
+        "symptoms": [
+            "Persistent urge to scratch",
+            "Constant itching sensation",
+            "Persistent irritation on skin",
+            "Annoying, uncomfortable itch",
+            "Desire to scratch the affected area",
+            "Itchy feeling causing discomfort",
+            "Irritation leading to an itch",
+            "Constant need to scratch",
+            "Persistent itchiness on skin",
+            "Discomfort due to itching",
+            "Skin feeling persistently itchy",
+            "An urge to relieve itching by scratching",
+            "Uncomfortable skin irritation",
+            "Itchy patches causing distress",
+            "Persistent itching leading to irritation"
+        ]
+    },
+    {
+        "tag": "allergic_reaction",
+        "symptoms": [
+            "Change in skin color",
+            "Uneven skin tone",
+            "Altered skin hue",
+            "Areas of skin with different coloration",
+            "Discolored patches on the skin",
+            "Skin with noticeable color changes",
+            "Unusual skin pigmentation",
+            "Marked change in skin shade",
+            "Abnormal skin color variation",
+            "Discoloration of skin regions",
+            "Skin exhibiting uneven color",
+            "Different colored skin patches",
+            "Changes in skin pigmentation",
+            "Areas of skin with altered color",
+            "Skin with abnormal hue"
+        ]
+    },
+    {
+        "tag": "stroke",
+        "symptoms": [
+            "Heightened sensitivity to touch",
+            "Overly sensitive skin",
+            "Greater sensitivity in the affected area",
+            "Increased discomfort upon touch",
+            "Sensitive to external stimuli",
+            "Enhanced pain response",
+            "Greater reaction to touch",
+            "Sensitive skin reaction",
+            "Heightened sensitivity leading to pain",
+            "Increased sensitivity in the area",
+            "Skin with a higher sensitivity level",
+            "Greater discomfort with light touch",
+            "Exaggerated sensitivity response",
+            "Tender and sensitive area",
+            "Sensitive skin causing discomfort"
+        ]
+    },
+    {
+        "tag": "chickenpox",
+        "symptoms": [
+            "Intense, uncomfortable itching",
+            "Persistent itchiness with rash",
+            "Severe itching with red spots",
+            "Rash accompanied by constant itching",
+            "Itchy red rash over body",
+            "Irritating, itchy spots",
+            "Red patches with persistent itch",
+            "Bothersome itching with rash",
+            "Intense rash causing discomfort",
+            "Constant irritation with red spots",
+            "Severe itchiness with rash",
+            "Annoying rash with itching",
+            "Discomfort due to itchy spots",
+            "Itchy rash causing distress",
+            "Intense rash leading to irritation"
+        ]
+    },
+    {
+        "tag": "herniated_disc",
+        "symptoms": [
+            "Severe pain in the lower back",
+            "Intense discomfort in the lower spine",
+            "Radiating pain from lower back",
+            "Sharp, localized pain in the back",
+            "Aching or throbbing lower back pain",
+            "Pain radiating down the legs",
+            "Numbness or tingling in the legs",
+            "Intense lower back pain with leg pain",
+            "Discomfort and pain extending to the legs",
+            "Persistent pain in the lower back area",
+            "Back pain extending to the thighs",
+            "Painful lower back with radiating discomfort",
+            "Severe ache in the lower back and legs",
+            "Pain in lower back with leg numbness",
+            "Severe lower back pain extending downward"
+        ]
+    },
+    {
+        "tag": "shoulder_dislocation",
+        "symptoms": [
+            "Pain and discomfort in the shoulder",
+            "Difficulty moving the shoulder",
+            "Swelling and inflammation around the shoulder",
+            "Limited range of motion in the shoulder",
+            "Pain when the shoulder is touched",
+            "Tenderness and soreness in the shoulder",
+            "Dislocated shoulder causing pain",
+            "Swollen and painful shoulder joint",
+            "Difficulty using the shoulder normally",
+            "Pain and restricted movement in the shoulder",
+            "Tender shoulder with limited motion",
+            "Painful dislocation with swelling",
+            "Inflamed shoulder causing discomfort",
+            "Difficulty moving and pain in the shoulder",
+            "Swollen shoulder with significant pain"
+        ]
+    },
+    {
+        "tag": "arthritis",
+        "symptoms": [
+            "Pain and inflammation in the joint",
+            "Redness and swelling around the joint",
+            "Difficulty moving the affected joint",
+            "Tenderness in the joint area",
+            "Aching and stiffness in the joint",
+            "Swollen, painful joint",
+            "Joint redness and discomfort",
+            "Limited movement due to pain",
+            "Joint pain with noticeable swelling",
+            "Inflamed and tender joint",
+            "Sore and swollen joint",
+            "Difficulty moving due to joint pain",
+            "Painful and inflamed joint condition",
+            "Joint swelling and restricted motion",
+            "Tender and swollen joint area"
+        ]
+    },
+    {
+        "tag": "urinary_tract_infection",
+        "symptoms": [
+            "Painful burning sensation during urination",
+            "Frequent urge to urinate",
+            "Cloudy or strong-smelling urine",
+            "Pelvic pain or discomfort",
+            "Urgency and discomfort during urination",
+            "Painful and frequent urination",
+            "Discolored or foul-smelling urine",
+            "Discomfort and pain in the lower abdomen",
+            "Persistent urge to urinate with pain",
+            "Pelvic and lower abdominal discomfort",
+            "Urine with a strong odor or cloudiness",
+            "Painful urination with frequent urges",
+            "Irritation and burning sensation while urinating",
+            "Pelvic pain associated with frequent urination",
+            "Unpleasant-smelling or cloudy urine"
+        ]
+    },
+
+    {
+        "tag": "anxiety_attack",
+        "symptoms": [
+            "A rapid, racing heartbeat",
+            "Sudden onset of extreme fear",
+            "Increased heart rate and palpitations",
+            "An overwhelming sense of panic",
+            "Sweating and trembling",
+            "Shortness of breath with anxiety",
+            "Feeling of impending doom",
+            "Uncontrollable shaking or trembling",
+            "Intense nervousness and restlessness",
+            "A tight chest and shallow breathing",
+            "Persistent worry and agitation",
+            "A feeling of being overwhelmed",
+            "Palpitations with feelings of dread",
+            "Intense fear causing physical symptoms",
+            "A sudden, intense feeling of anxiety"
+        ]
+    },
+    {
+        "tag": "concussion",
+        "symptoms": [
+            "Confusion or disorientation",
+            "Persistent headache or migraine",
+            "Nausea and vomiting",
+            "Dizziness and balance problems",
+            "Sensitivity to light or noise",
+            "Loss of consciousness or fainting",
+            "Memory problems or amnesia",
+            "Feeling of fogginess or dazed",
+            "Ringing in the ears (tinnitus)",
+            "Visual disturbances or blurred vision",
+            "Trouble concentrating or focusing",
+            "Feeling unusually sleepy or lethargic",
+            "Difficulty with coordination and movement",
+            "Mood swings or irritability",
+            "Nausea combined with headache"
+        ]
+    },
+    {
+        "tag": "severe_allergic_reaction",
+        "symptoms": [
+            "Rapid swelling of the face or throat",
+            "Difficulty breathing or wheezing",
+            "Hives or rash spreading rapidly",
+            "Severe itching or redness",
+            "Tightness in the chest",
+            "Swelling of lips, tongue, or throat",
+            "Intense difficulty swallowing",
+            "Rapid drop in blood pressure",
+            "Dizziness or lightheadedness",
+            "Unconsciousness or fainting",
+            "Severe abdominal cramping or pain",
+            "Vomiting or diarrhea",
+            "Extreme weakness or lethargy",
+            "Tachycardia or irregular heartbeat",
+            "Loss of consciousness due to shock"
+        ]
+    },
+    {
+        "tag": "hyperglycemia",
+        "symptoms": [
+            "Excessive thirst or dehydration",
+            "Frequent urination",
+            "Blurred vision",
+            "Fatigue and tiredness",
+            "Dry mouth and skin",
+            "Unexplained weight loss",
+            "Nausea or vomiting",
+            "Headaches or migraines",
+            "Confusion or difficulty concentrating",
+            "Fruity-smelling breath",
+            "Abdominal pain or cramping",
+            "Rapid breathing or shortness of breath",
+            "Weakness or dizziness",
+            "Elevated blood sugar levels",
+            "Extreme hunger or appetite changes"
+        ]
+    },
+    {
+        "tag": "hypoglycemia",
+        "symptoms": [
+            "Shakiness or trembling",
+            "Sweating or clammy skin",
+            "Sudden irritability or mood swings",
+            "Confusion or difficulty concentrating",
+            "Dizziness or lightheadedness",
+            "Rapid heartbeat or palpitations",
+            "Headache or nausea",
+            "Weakness or fatigue",
+            "Hunger or feeling faint",
+            "Blurred vision or difficulty seeing",
+            "Pale or ashen skin",
+            "Uncoordinated movements",
+            "Tingling or numbness in the lips or tongue",
+            "Seizures or convulsions",
+            "Loss of consciousness or fainting"
+        ]
+    },
+    {
+        "tag": "gastroenteritis",
+        "symptoms": [
+            "Sudden onset of diarrhea",
+            "Severe abdominal cramping",
+            "Nausea and frequent vomiting",
+            "Fever or chills",
+            "Dehydration or excessive thirst",
+            "Headaches or dizziness",
+            "Muscle aches or joint pain",
+            "Loss of appetite or aversion to food",
+            "Fatigue or weakness",
+            "Stomach bloating or gas",
+            "Unpleasant taste in the mouth",
+            "Rapid heartbeat or palpitations",
+            "Persistent stomach upset",
+            "Difficulty keeping fluids down",
+            "Changes in stool color or consistency"
+        ]
+    },
+    {
+        "tag": "sinusitis",
+        "symptoms": [
+            "Facial pain or pressure",
+            "Nasal congestion or blockage",
+            "Thick nasal discharge",
+            "Reduced sense of smell or taste",
+            "Coughing or sore throat",
+            "Headache or pain behind the eyes",
+            "Swelling around the eyes",
+            "Fever or chills",
+            "Fatigue or general malaise",
+            "Post-nasal drip",
+            "Ear pressure or fullness",
+            "Bad breath or halitosis",
+            "Tenderness over the sinus areas",
+            "Painful upper teeth",
+            "Increased mucus production"
+        ]
+    },
+    {
+        "tag": "gout",
+        "symptoms": [
+            "Severe pain in the joint",
+            "Redness and inflammation",
+            "Swelling of the affected joint",
+            "Intense tenderness or sensitivity",
+            "Warmth around the joint",
+            "Difficulty moving the joint",
+            "Sharp, stabbing pain",
+            "Intermittent flare-ups of pain",
+            "Chronic discomfort in the joint",
+            "Decreased range of motion",
+            "Painful attacks during the night",
+            "Red or purplish discoloration of the skin",
+            "A feeling of heat around the joint",
+            "Increased sensitivity to touch",
+            "Painful swelling and redness"
+        ]
+    },
+    {
+        "tag": "menstrual_cramps",
+        "symptoms": [
+            "Sharp, cramping pain in the lower abdomen",
+            "Dull ache or throbbing sensation",
+            "Pain radiating to the lower back",
+            "Discomfort in the pelvic region",
+            "Nausea or gastrointestinal upset",
+            "Increased pain during menstruation",
+            "Feeling of heaviness in the abdomen",
+            "Muscle spasms or twitching",
+            "Pain that worsens with movement",
+            "Tenderness in the abdominal area",
+            "Swelling or bloating",
+            "Persistent, aching pain",
+            "Pain that interferes with daily activities",
+            "Lower abdominal pressure",
+            "Dull, persistent cramping"
+        ]
+    },
+    {
+        "tag": "rashes",
+        "symptoms": [
+            "Red, inflamed patches on the skin",
+            "Itchy and uncomfortable skin areas",
+            "Dry, scaly skin with flaking",
+            "Blotchy and uneven skin coloration",
+            "Raised bumps or welts on the skin",
+            "Small, red, and irritated spots",
+            "Tender and sensitive skin areas",
+            "Persistent itching with redness",
+            "Skin rash with varying intensity",
+            "Discolored, irritated skin patches",
+            "Swelling and puffiness in rash areas",
+            "Skin with blistering or peeling",
+            "Localized skin irritation",
+            "A rash with different stages of healing",
+            "Skin with redness and discomfort"
+        ]
+    },
+
+    {
+        "tag": "dehydration",
+        "symptoms": [
+            "Extreme thirst or dry mouth",
+            "Dark-colored urine and reduced output",
+            "Feeling lightheaded or dizzy",
+            "Dry, cool skin",
+            "Fatigue and weakness",
+            "Rapid heartbeat and breathing",
+            "Headaches or migraines",
+            "Sunken eyes and cheeks",
+            "Confusion or irritability",
+            "Less frequent urination",
+            "Dry or sticky mucous membranes",
+            "Skin lacking elasticity",
+            "Cramping or muscle aches",
+            "Nausea or vomiting",
+            "Unusually low blood pressure"
+        ]
+    },
+    {
+        "tag": "insomnia",
+        "symptoms": [
+            "Difficulty falling asleep",
+            "Frequent waking during the night",
+            "Early morning awakening",
+            "Restless or disturbed sleep",
+            "Feeling tired upon waking",
+            "Difficulty concentrating during the day",
+            "Increased daytime sleepiness",
+            "Irritability or mood swings",
+            "Trouble staying asleep",
+            "Unrefreshing sleep",
+            "Difficulty maintaining a regular sleep schedule",
+            "Physical discomfort while trying to sleep",
+            "A sense of frustration or anxiety about sleep",
+            "Sleep disruptions or interruptions",
+            "Feeling unrefreshed after sleep"
+        ]
+    },
+    {
+        "tag": "muscle_cramps",
+        "symptoms": [
+            "Sudden, sharp pain in the muscle",
+            "Involuntary muscle contractions",
+            "A knot or lump in the muscle",
+            "Painful muscle twitching",
+            "Stiffness or tightness in the muscle",
+            "Limited range of motion",
+            "Discomfort or soreness in the muscle",
+            "Tingling or numbness in the affected area",
+            "Muscle pain that lasts for several minutes",
+            "Persistent cramping or spasms",
+            "A feeling of intense muscle fatigue",
+            "Muscle ache following exercise",
+            "Localized pain in the muscle",
+            "Pain that worsens with movement",
+            "Difficulty relaxing the muscle"
+        ]
+    },
+    {
+        "tag": "cold_sore",
+        "symptoms": [
+            "Tingling or itching around the lips",
+            "Small, fluid-filled blisters on the lips",
+            "Painful sores that scab over",
+            "Burning or stinging sensation",
+            "Redness or swelling around the sores",
+            "Crusting or drying of the blisters",
+            "Mouth or lip pain",
+            "Sore or tender area before blisters appear",
+            "Fever or mild flu-like symptoms",
+            "Swollen lymph nodes in the neck",
+            "Discomfort or sensitivity around the mouth",
+            "Blisters that burst and form a crust",
+            "Recurring sores or outbreaks",
+            "A feeling of discomfort or pressure on the lips",
+            "Localized pain in the affected area"
+        ]
+    },
+    {
+        "tag": "tendonitis",
+        "symptoms": [
+            "Pain and tenderness in a tendon",
+            "Swelling and inflammation around the tendon",
+            "Difficulty moving the affected joint",
+            "A dull, aching pain",
+            "Pain that worsens with movement",
+            "Stiffness in the affected area",
+            "Swollen and warm to the touch",
+            "Tenderness when applying pressure",
+            "Sharp or stabbing pain in the tendon",
+            "Limited range of motion",
+            "Persistent discomfort during or after activity",
+            "Pain that radiates from the tendon",
+            "A feeling of tightness or strain",
+            "Muscle weakness around the affected tendon",
+            "Discomfort that improves with rest"
+        ]
+    },
+    {
+        "tag": "vertigo",
+        "symptoms": [
+            "A spinning sensation or dizziness",
+            "Loss of balance or coordination",
+            "Nausea or vomiting",
+            "Feeling as if the surroundings are moving",
+            "Difficulty standing or walking",
+            "A sense of disorientation",
+            "Unsteady gait or wobbling",
+            "Ringing in the ears (tinnitus)",
+            "Visual disturbances or blurred vision",
+            "Feeling faint or lightheaded",
+            "Confusion or altered spatial awareness",
+            "Sweating or cold sweats",
+            "Headaches accompanying the dizziness",
+            "Sensitivity to movement or changes in position",
+            "A sense of floating or being off-balance"
+        ]
+    },
+    {
+        "tag": "eczema",
+        "symptoms": [
+            "Red, inflamed patches on the skin",
+            "Dry, scaly skin that may crack",
+            "Persistent itching or irritation",
+            "Blisters that may ooze and crust",
+            "Swollen or thickened skin",
+            "Rash that worsens with scratching",
+            "Skin redness or discoloration",
+            "Sensitive skin that reacts to irritants",
+            "Areas of rough, dry patches",
+            "Inflammation or swelling of the skin",
+            "Flaky or peeling skin",
+            "Localized or widespread rash",
+            "Pain or discomfort in the affected areas",
+            "Skin that feels tight or dry",
+            "Increased sensitivity to touch or temperature"
+        ]
+    },
+    {
+        "tag": "high_blood_pressure",
+        "symptoms": [
+            "Persistent headache or pressure",
+            "Dizziness or lightheadedness",
+            "Shortness of breath",
+            "Blurry vision or visual disturbances",
+            "Nausea or vomiting",
+            "Chest pain or discomfort",
+            "Fatigue or confusion",
+            "Palpitations or irregular heartbeat",
+            "Nosebleeds or flushed face",
+            "Difficulty breathing or anxiety",
+            "Pain in the back of the head",
+            "Tinnitus or ringing in the ears",
+            "Swelling in the ankles or legs",
+            "Unexplained shortness of breath",
+            "A feeling of general malaise"
+        ]
+    },
+    {
+        "tag": "flu",
+        "symptoms": [
+            "High fever and chills",
+            "Muscle aches and joint pain",
+            "Coughing and sore throat",
+            "Runny or stuffy nose",
+            "Headaches and fatigue",
+            "Body aches and weakness",
+            "Feverish feeling with sweating",
+            "Nausea or vomiting",
+            "Loss of appetite",
+            "Fatigue and general malaise",
+            "Congested or blocked sinuses",
+            "Painful swallowing",
+            "Aches and pains throughout the body",
+            "Dry or persistent cough",
+            "Fever with intense shivering"
+        ]
+    },
+    {
+        "tag": "peptic_ulcer",
+        "symptoms": [
+            "Burning stomach pain or discomfort",
+            "Nausea or vomiting",
+            "Indigestion or bloating",
+            "Loss of appetite",
+            "Dark or tarry stools",
+            "Unexplained weight loss",
+            "Frequent burping or belching",
+            "Heartburn or acid reflux",
+            "Stomach bloating or gas",
+            "Pain that improves after eating",
+            "Feeling full after eating small amounts",
+            "Stomach pain that wakes you at night",
+            "Persistent or recurrent stomach aches",
+            "Stomach cramping or gurgling",
+            "Discomfort or pain in the upper abdomen"
+        ]
+    },
+    {
+        "tag": "rheumatoid_arthritis",
+        "symptoms": [
+            "Pain and swelling in multiple joints",
+            "Morning stiffness or joint rigidity",
+            "Symmetrical joint pain",
+            "Redness and warmth around the joints",
+            "Fatigue and general malaise",
+            "Reduced joint mobility and range of motion",
+            "Tenderness or sensitivity in joints",
+            "Joint deformities or changes in shape",
+            "Pain that worsens with activity",
+            "Swollen and puffy joints",
+            "Loss of joint function",
+            "Difficulty gripping or holding objects",
+            "Systemic symptoms like fever or weight loss",
+            "Joint pain that improves with rest",
+            "Persistent joint discomfort or stiffness"
+        ]
+    }
+]
+

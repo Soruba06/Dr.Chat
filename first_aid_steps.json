@@ -1,0 +1,74 @@
+{
+    "allergic_reaction": {
+        "description": "An allergic reaction may include symptoms such as itching, swelling, and rashes.",
+        "steps": [
+            "Identify and remove the allergen if possible.",
+            "Administer antihistamines if prescribed.",
+            "For severe reactions, use an epinephrine auto-injector if available.",
+            "Seek medical attention immediately if symptoms are severe or worsening."
+        ]
+    },
+    "arthritis_in_hands": {
+        "description": "Arthritis in hands causes pain, swelling, and stiffness in the joints.",
+        "steps": [
+            "Apply heat or cold packs to relieve pain and swelling.",
+            "Perform gentle hand exercises to maintain flexibility.",
+            "Use over-the-counter pain relievers as needed.",
+            "Consult a healthcare provider for personalized treatment and medication."
+        ]
+    },
+    "burns": {
+        "description": "Burns can result from heat, chemicals, or electricity and cause damage to the skin.",
+        "steps": [
+            "Cool the burn under running cold water for at least 10 minutes.",
+            "Cover the burn with a sterile, non-stick bandage.",
+            "Avoid applying ice, butter, or ointments.",
+            "Seek medical attention for severe burns or if blisters develop."
+        ]
+    },
+    "chickenpox_rash": {
+        "description": "Chickenpox rash consists of itchy red spots that develop into fluid-filled blisters.",
+        "steps": [
+            "Keep the affected area clean and avoid scratching.",
+            "Use calamine lotion or antihistamines to relieve itching.",
+            "Take lukewarm baths with baking soda or colloidal oatmeal.",
+            "Consult a healthcare provider for antiviral medication if necessary."
+        ]
+    },
+    "cold_sore_symptoms": {
+        "description": "Cold sores are caused by the herpes simplex virus and appear as small, fluid-filled blisters around the mouth.",
+        "steps": [
+            "Apply antiviral cream or ointment as prescribed.",
+            "Avoid close contact with others, especially newborns and pregnant women.",
+            "Keep the affected area clean and dry.",
+            "Avoid touching the sores and wash hands frequently."
+        ]
+    },
+    "deep_cut": {
+        "description": "A deep cut or laceration requires prompt care to prevent infection and promote healing.",
+        "steps": [
+            "Apply pressure to stop bleeding.",
+            "Clean the wound gently with water and mild soap.",
+            "Cover with a sterile bandage or dressing.",
+            "Seek medical attention to determine if stitches are needed or to assess for possible infection."
+        ]
+    },
+    "fracture": {
+        "description": "A fracture is a break or crack in a bone that requires immediate attention.",
+        "steps": [
+            "Immobilize the injured area with a splint or by tying it to a nearby body part.",
+            "Apply ice to reduce swelling.",
+            "Elevate the injured limb if possible.",
+            "Seek medical attention immediately for proper diagnosis and treatment."
+        ]
+    },
+    "gout": {
+        "description": "Gout is a type of arthritis characterized by sudden and severe pain, redness, and swelling in the joints, often the big toe.",
+        "steps": [
+            "Rest the affected joint and elevate it if possible.",
+            "Apply ice to reduce swelling and pain.",
+            "Take over-the-counter anti-inflammatory medications or medications prescribed by a doctor.",
+            "Consult a healthcare provider for long-term management and dietary advice."
+        ]
+    }
+}

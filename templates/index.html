@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-top: 20px;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Chatbot</h1>
+
+        <div class="form-group">
+            <label for="userInput">First Aid Inquiry:</label>
+            <textarea id="userInput" rows="4" placeholder="Describe your first aid inquiry..."></textarea>
+            <button onclick="sendFirstAidRequest()">Submit</button>
+        </div>
+
+        <div class="form-group">
+            <label for="symptomsInput">Symptoms Analysis:</label>
+            <textarea id="symptomsInput" rows="4" placeholder="List your symptoms separated by commas..."></textarea>
+            <button onclick="sendSymptomsRequest()">Analyze Symptoms</button>
+        </div>
+
+        <div class="form-group">
+            <label for="imageInput">Image Prediction:</label>
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="sendImageRequest()">Predict Image</button>
+        </div>
+
+        <div class="result">
+            <h2>Results:</h2>
+            <pre id="resultOutput"></pre>
+        </div>
+
+        <!-- Google Map -->
+        <div id="map"></div>
+    </div>
+
+    <script>
+        // Function to initialize Google Maps after receiving user's location
+        function initMap(userLocation) {
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: userLocation,
+                zoom: 14
+            });
+
+            // Add a marker for the user's location
+            const userMarker = new google.maps.Marker({
+                position: userLocation,
+                map: map,
+                title: 'Your Location'
+            });
+
+            // Search for nearby hospitals
+            const service = new google.maps.places.PlacesService(map);
+            service.nearbySearch({
+                location: userLocation,
+                radius: 5000, // 5 km radius for nearby hospitals
+                type: ['hospital']
+            }, (results, status) => {
+                if (status === google.maps.places.PlacesServiceStatus.OK) {
+                    results.forEach(place => {
+                        const marker = new google.maps.Marker({
+                            position: place.geometry.location,
+                            map: map,
+                            title: place.name
+                        });
+
+                        const infoWindow = new google.maps.InfoWindow({
+                            content: `<h4>${place.name}</h4><p>${place.vicinity}</p>`
+                        });
+
+                        marker.addListener('click', () => {
+                            infoWindow.open(map, marker);
+                        });
+                    });
+                } else {
+                    alert('No hospitals found nearby.');
+                }
+            });
+        }
+
+        // Function to get user location and display the map
+        function displayMap() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    position => {
+                        const userLocation = {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude
+                        };
+                        initMap(userLocation);
+                        document.getElementById('map').style.display = 'block'; // Show the map after initialization
+                    },
+                    error => {
+                        alert('Error getting location: ' + error.message);
+                    }
+                );
+            } else {
+                alert('Geolocation is not supported by this browser.');
+            }
+        }
+
+        // Function to submit first aid inquiry
+        function sendFirstAidRequest() {
+            const userInput = document.getElementById('userInput').value;
+            fetch('/first-aid', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ user_input: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Extract only the first_aid_steps value and display it
+                const firstAidSteps = data.response.first_aid_steps;
+                document.getElementById('resultOutput').textContent = `first_aid_steps: ${firstAidSteps}`;
+
+                // After displaying the first aid response, show the Google Map
+                displayMap();
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        // Submit Symptoms Analysis
+        function sendSymptomsRequest() {
+            const symptomsInput = document.getElementById('symptomsInput').value;
+            const symptomsList = symptomsInput.split(',').map(s => s.trim());
+            fetch('/analyze-symptoms', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ symptoms: symptomsList })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Format the JSON data as a string without braces and double quotes
+                let formattedOutput = '';
+                for (const [key, value] of Object.entries(data)) {
+                     formattedOutput += `${key}: ${value}\n`;
+                }
+                // Add the "THIS IS A PREDICTION ONLY" message
+                formattedOutput += "\nTHIS IS A PREDICTION ONLY";
+
+                document.getElementById('resultOutput').textContent = formattedOutput.trim();
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+
+
+
+        // Submit Image Prediction
+        function sendImageRequest() {
+          const fileInput = document.getElementById('imageInput');
+          if (fileInput.files.length === 0) {
+             alert('Please select an image file.');
+             return;
+         }
+
+        const formData = new FormData();
+        formData.append('file', fileInput.files[0]);
+
+        fetch('/predict-image', {
+           method: 'POST',
+           body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+           // Extracting and formatting image prediction result
+           const key = Object.keys(data)[0]; // Assuming there is only one key for prediction
+           const details = data[key];
+           const description = details.description;
+           const steps = details.steps.join('\n      '); // Joining steps with new lines and indentation
+
+           const formattedOutput =`
+Image Prediction Result:
+  ${key}:
+    description: ${description}
+    steps:
+      ${steps}`;
+
+           // Display the formatted output
+           document.getElementById('resultOutput').textContent = formattedOutput.trim();
+        })
+        .catch(error => console.error('Error:', error));
+    }
+
+    </script>
+
+    <!-- Google Maps API with Places Library -->
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap">
+    </script>
+</body>
+</html>
+

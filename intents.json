@@ -1,0 +1,2363 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going?",
+        "good morning",
+        "good afternoon",
+        "howdy",
+        "salutations",
+        "what's new?",
+        "how are you?",
+        "hi there",
+        "nice to meet you"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hey! What first aid assistance do you need?",
+        "Hi there! How can I help you?",
+        "Good day! What emergency situation can I help with?",
+        "Greetings! I'm here to help you with first aid."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "take care",
+        "catch you later",
+        "farewell",
+        "until next time",
+        "see you soon",
+        "have a great day",
+        "later",
+        "peace out",
+        "I'm off",
+        "exit",
+        "signing off"
+      ],
+      "responses": [
+        "Goodbye! Stay safe!",
+        "See you later! Take care!",
+        "Have a great day!",
+        "Farewell! Remember to stay safe!",
+        "Talk to you soon! Stay well!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "thanks a lot",
+        "appreciate it",
+        "many thanks",
+        "I'm grateful",
+        "thanks for the help",
+        "thank you very much",
+        "you are awesome",
+        "thanks for your assistance",
+        "cheers",
+        "thanks for your support",
+        "I'm thankful",
+        "thanks a ton"
+      ],
+      "responses": [
+        "You're welcome! Glad to help!",
+        "Happy to assist!",
+        "Anytime! Stay safe!",
+        "You're very welcome! If you need more help, just ask.",
+        "No problem! I'm here whenever you need assistance."
+      ]
+    },
+    { "tag": "burns",
+      "patterns": [
+        "I have a burn",
+        "what to do for a burn?",
+        "burn first aid",
+        "how to treat a burn",
+        "burn relief",
+        "thermal burn",
+        "chemical burn",
+        "sunburn treatment",
+        "blisters from a burn",
+        "burn symptoms",
+        "how to cool a burn",
+        "burn care tips",
+        "first aid for burns",
+        "pain from a burn",
+        "burn dressing"
+      ],
+      "responses": [
+        "To treat a burn:\n\n1. **Cool the Burn**: Run cool (not cold) water over the burn for 10-20 minutes.\n2. **Cover the Burn**: Use a sterile, non-adhesive bandage or clean cloth to cover the area.\n3. **Pain Relief**: Take over-the-counter pain relievers like ibuprofen or acetaminophen if needed.\n4. **Avoid Ice**: Do not apply ice directly to the burn, as it can cause further damage.\n5. **Seek Medical Help**: If the burn is large, blistered, or shows signs of infection, seek medical attention."
+   ]
+ },
+ {
+      "tag": "cuts_and_scrapes",
+      "patterns": [
+        "I have a cut",
+        "how to treat a scrape?",
+        "first aid for cuts",
+        "scrape care",
+        "what to do for a cut?",
+        "bleeding from a cut",
+        "bandaging a cut",
+        "infected scrape",
+        "how to clean a cut",
+        "wound care tips",
+        "cuts and scrapes treatment",
+        "first aid for scrapes",
+        "minor cuts",
+        "deep cut",
+        "cut symptoms"
+      ],
+      "responses": [
+        "To treat a cut or scrape:\n\n1. **Clean the Wound**: Rinse the cut or scrape under running water to remove debris.\n2. **Apply Antiseptic**: Use an antiseptic solution to clean the area.\n3. **Cover the Wound**: Apply a sterile bandage to protect the area.\n4. **Control Bleeding**: If bleeding continues, apply gentle pressure with a clean cloth.\n5. **Seek Medical Help**: If the cut is deep, won’t stop bleeding, or shows signs of infection, seek medical attention."
+
+        ]
+    },
+    {
+  "tag": "alcohol_poisoning",
+  "patterns": [
+    "I drank too much alcohol",
+    "how to treat alcohol poisoning?",
+    "first aid for excessive drinking",
+    "overconsumption of alcohol",
+    "what to do for alcohol poisoning?",
+    "passed out after drinking",
+    "alcohol poisoning symptoms",
+    "too much alcohol",
+    "drank a lot of alcohol",
+    "vomiting after alcohol",
+    "help with alcohol poisoning"
+  ],
+  "responses": [
+    "To handle excessive alcohol consumption:\n\n1. **Check Responsiveness**: Try to wake the person by calling their name or shaking them gently. If unresponsive, call emergency services.\n2. **Call for Help**: Dial emergency services if the person shows signs of alcohol poisoning, such as confusion, vomiting, seizures, irregular breathing, or unconsciousness.\n3. **Monitor Breathing**: Ensure the person is breathing regularly. If breathing is slow or irregular, it’s a sign of alcohol poisoning.\n4. **Place in Recovery Position**: If unconscious but breathing, turn the person on their side to prevent choking.\n5. **Do Not Leave Them Alone**: Stay with the person and monitor their breathing and consciousness until help arrives.\n6. **Avoid More Alcohol or Stimulants**: Don’t allow them to drink more alcohol or stimulants like coffee.\n7. **Keep Them Warm**: Use blankets to prevent body temperature from dropping.\n8. **Hydrate**: If they are conscious, give them small sips of water to prevent dehydration.\n\n**THIS IS A PREDICTION ONLY**"
+  ]
+},
+
+    {
+      "tag": "choking",
+      "patterns": [
+        "someone is choking",
+        "what to do if someone is choking?",
+        "choking first aid",
+        "help choking",
+        "signs of choking",
+        "how to help someone choking",
+        "Heimlich maneuver",
+        "choking symptoms",
+        "choking rescue",
+        "airway obstruction",
+        "assisting someone who is choking",
+        "choking response",
+        "choking in adults",
+        "choking in children",
+        "foreign object in throat"
+      ],
+      "responses": [
+        "To help someone who is choking:\n\n1. **Assess the Situation**: Ask the person if they can speak or cough.\n2. **Encourage Coughing**: If they can cough, encourage them to keep coughing to dislodge the object.\n3. **Perform Heimlich Maneuver**: If they cannot cough or breathe:\n   - Stand behind them, wrap your arms around their waist.\n   - Make a fist with one hand and place it above their navel.\n   - Grasp your fist with your other hand and thrust inward and upward.\n4. **Call Emergency Services**: If the object is not dislodged, call for emergency help immediately."
+      ]
+    },
+    {
+      "tag": "snake_bite",
+      "patterns": [
+        "someone got bitten by a snake",
+        "what to do if bitten by a snake?",
+        "snake bite first aid",
+        "help for snake bite",
+        "signs of snake bite",
+        "how to treat a snake bite",
+        "snake bite symptoms",
+        "snake bite response",
+        "snake bite rescue",
+        "venomous snake bite",
+        "non-venomous snake bite",
+        "handling a snake bite",
+        "snake bite emergency"
+      ],
+      "responses": [
+        "To help someone who has been bitten by a snake:\n\n1. **Stay Calm and Keep Still**: Encourage the victim to remain as still and calm as possible. Movement can accelerate the spread of venom.\n\n2. **Position the Affected Area**: Keep the bite area below the level of the heart to reduce blood flow to the area and slow the spread of venom.\n\n3. **Remove Constrictions**: Remove any tight clothing, jewelry, or accessories near the bite area to allow for swelling.\n\n4. **Clean the Wound**: Gently wash the bite with soap and water. Do not flush the wound with water or try to suck out the venom.\n\n5. **Immobilize the Area**: Use a splint to immobilize the limb but do not apply ice or a tourniquet. Ensure the splinting is loose enough to allow for swelling.\n\n6. **Mark the Bite Area**: Use a pen to mark the edge of the swelling and note the time. This helps medical professionals assess the progression of envenomation.\n\n7. **Monitor Vital Signs**: Keep an eye on the victim’s breathing, pulse, and responsiveness. Be ready to perform CPR if necessary.\n\n8. **Seek Emergency Medical Help**: Call emergency services immediately. Provide as much information as possible about the snake, including its color, size, and any distinctive markings if it’s safe to do so.\n\n9. **Do Not Apply Remedies**: Do not apply ice, tourniquets, or try to cut the wound. Do not give the victim caffeine or alcohol."
+      ]
+    },
+    {
+      "tag": "dog_bite",
+      "patterns": [
+        "someone got bitten by a dog",
+        "what to do if bitten by a dog?",
+        "dog bite first aid",
+        "help for dog bite",
+        "signs of dog bite",
+        "how to treat a dog bite",
+        "dog bite symptoms",
+        "dog bite response",
+        "dog bite rescue",
+        "animal bite emergency",
+        "handling a dog bite",
+        "dog bite injury"
+      ],
+      "responses": [
+        "To help someone who has been bitten by a dog:\n\n1. **Clean the Wound**: Wash the bite area with soap and water to reduce the risk of infection.\n\n2. **Stop the Bleeding**: Apply pressure with a clean cloth to stop any bleeding.\n\n3. **Apply Antibiotic**: Use an over-the-counter antibiotic ointment to prevent infection.\n\n4. **Cover the Wound**: Cover the bite with a sterile bandage or dressing.\n\n5. **Seek Medical Help**: Contact a healthcare provider, especially if the bite is deep, if the dog might have rabies, or if there are signs of infection such as redness, swelling, or pus.\n\n6. **Monitor for Rabies**: Observe the dog (if known) for any signs of rabies and inform your healthcare provider."
+      ]
+    },
+    {
+      "tag": "cat_bite",
+      "patterns": [
+        "someone got bitten by a cat",
+        "what to do if bitten by a cat?",
+        "cat bite first aid",
+        "help for cat bite",
+        "signs of cat bite",
+        "how to treat a cat bite",
+        "cat bite symptoms",
+        "cat bite response",
+        "cat bite rescue",
+        "animal bite emergency",
+        "handling a cat bite",
+        "cat bite injury"
+      ],
+      "responses": [
+        "To help someone who has been bitten by a cat:\n\n1. **Clean the Wound**: Wash the bite area thoroughly with soap and water.\n\n2. **Stop the Bleeding**: Apply pressure with a clean cloth to stop any bleeding.\n\n3. **Apply Antibiotic**: Use an over-the-counter antibiotic ointment to prevent infection.\n\n4. **Cover the Wound**: Cover the bite with a sterile bandage or dressing.\n\n5. **Seek Medical Help**: Contact a healthcare provider, as cat bites can easily become infected and may require antibiotics.\n\n6. **Monitor for Infection**: Watch for signs of infection, such as redness, swelling, increased pain, or pus, and seek medical attention if they occur."
+      ]
+    },
+    {
+      "tag": "spider_bite",
+      "patterns": [
+        "someone got bitten by a spider",
+        "what to do if bitten by a spider?",
+        "spider bite first aid",
+        "help for spider bite",
+        "signs of spider bite",
+        "how to treat a spider bite",
+        "spider bite symptoms",
+        "spider bite response",
+        "spider bite rescue",
+        "venomous spider bite",
+        "non-venomous spider bite",
+        "handling a spider bite",
+        "spider bite emergency"
+      ],
+      "responses": [
+        "To help someone who has been bitten by a spider:\n\n1. **Clean the Wound**: Wash the bite area with soap and water.\n\n2. **Apply a Cool Compress**: Use a cool cloth or ice pack wrapped in a cloth to reduce swelling and pain.\n\n3. **Take Pain Relievers**: Use over-the-counter pain relievers such as ibuprofen or acetaminophen to alleviate pain.\n\n4. **Monitor for Severe Reactions**: Watch for symptoms of severe reactions such as difficulty breathing, chest pain, or severe muscle cramps, and seek emergency medical help if they occur.\n\n5. **Seek Medical Help**: Contact a healthcare provider if the bite area becomes infected or if symptoms worsen."
+      ]
+    },
+    {
+      "tag": "insect_sting",
+      "patterns": [
+        "someone got stung by an insect",
+        "what to do if stung by an insect?",
+        "insect sting first aid",
+        "help for insect sting",
+        "signs of insect sting",
+        "how to treat an insect sting",
+        "insect sting symptoms",
+        "insect sting response",
+        "insect sting rescue",
+        "bee sting",
+        "wasp sting",
+        "handling an insect sting",
+        "insect sting emergency"
+      ],
+      "responses": [
+        "To help someone who has been stung by an insect:\n\n1. **Remove the Stinger**: If the stinger is visible, remove it carefully by scraping it with a flat-edged object like a credit card. Do not use tweezers as this can squeeze more venom into the skin.\n\n2. **Clean the Area**: Wash the sting area with soap and water.\n\n3. **Apply a Cool Compress**: Use a cool cloth or ice pack wrapped in a cloth to reduce swelling and pain.\n\n4. **Take Pain Relievers**: Use over-the-counter pain relievers such as ibuprofen or acetaminophen to alleviate pain.\n\n5. **Apply an Antihistamine**: Use an over-the-counter antihistamine cream or take an oral antihistamine to reduce itching and swelling.\n\n6. **Monitor for Allergic Reactions**: Watch for symptoms of severe allergic reactions such as difficulty breathing, swelling of the face or throat, or dizziness. Seek emergency medical help if they occur."
+      ]
+    },
+    {
+      "tag": "jellyfish_sting",
+      "patterns": [
+        "someone got stung by a jellyfish",
+        "what to do if stung by a jellyfish?",
+        "jellyfish sting first aid",
+        "help for jellyfish sting",
+        "signs of jellyfish sting",
+        "how to treat a jellyfish sting",
+        "jellyfish sting symptoms",
+        "jellyfish sting response",
+        "jellyfish sting rescue",
+        "handling a jellyfish sting",
+        "jellyfish sting emergency"
+      ],
+      "responses": [
+        "To help someone who has been stung by a jellyfish:\n\n1. **Rinse with Vinegar**: Rinse the affected area with vinegar for at least 30 seconds. If vinegar is not available, use seawater.\n\n2. **Remove Tentacles**: Carefully remove any visible tentacles using a pair of tweezers. Wear gloves if available.\n\n3. **Immerse in Hot Water**: Immerse the affected area in hot water (not scalding) for 20 to 45 minutes to reduce pain.\n\n4. **Take Pain Relievers**: Use over-the-counter pain relievers such as ibuprofen or acetaminophen to alleviate pain.\n\n5. **Seek Medical Help**: Seek medical attention if the reaction is severe, if the sting area spreads, or if the pain persists."
+      ]
+    },
+    {
+      "tag": "bat_bite",
+      "patterns": [
+        "someone got bitten by a bat",
+        "what to do if bitten by a bat?",
+        "bat bite first aid",
+        "help for bat bite",
+        "signs of bat bite",
+        "how to treat a bat bite",
+        "bat bite symptoms",
+        "bat bite response",
+        "bat bite rescue",
+        "animal bite emergency",
+        "handling a bat bite",
+        "bat bite injury"
+      ],
+      "responses": [
+        "To help someone who has been bitten by a bat:\n\n1. **Clean the Wound**: Wash the bite area thoroughly with soap and water.\n\n2. **Stop the Bleeding**: Apply pressure with a clean cloth to stop any bleeding.\n\n3. **Apply Antibiotic**: Use an over-the-counter antibiotic ointment to prevent infection.\n\n4. **Cover the Wound**: Cover the bite with a sterile bandage or dressing.\n\n5. **Seek Medical Help**: Contact a healthcare provider immediately as bat bites can carry a high risk of rabies and may require a series of rabies vaccinations."
+      ]
+    },
+    {
+      "tag": "tick_bite",
+      "patterns": [
+        "someone got bitten by a tick",
+        "what to do if bitten by a tick?",
+        "tick bite first aid",
+        "help for tick bite",
+        "signs of tick bite",
+        "how to treat a tick bite",
+        "tick bite symptoms",
+        "tick bite response",
+        "tick bite rescue",
+        "handling a tick bite",
+        "tick bite emergency"
+      ],
+      "responses": [
+        "To help someone who has been bitten by a tick:\n\n1. **Remove the Tick**: Use fine-tipped tweezers to grasp the tick as close to the skin's surface as possible. Pull upward with steady, even pressure. Do not twist or jerk the tick.\n\n2. **Clean the Area**: After removing the tick, clean the bite area and your hands with rubbing alcohol, an iodine scrub, or soap and water.\n\n3. **Dispose of the Tick**: Dispose of the tick by submersing it in alcohol, placing it in a sealed bag/container, wrapping it tightly in tape, or flushing it down the toilet.\n\n4. **Monitor for Symptoms**: Watch for signs of Lyme disease or other tick-borne illnesses, such as rash or flu-like symptoms. Seek medical attention if symptoms occur."
+      ]
+    },
+    {
+      "tag": "scorpion_sting",
+      "patterns": [
+        "someone got stung by a scorpion",
+        "what to do if stung by a scorpion?",
+        "scorpion sting first aid",
+        "help for scorpion sting",
+        "signs of scorpion sting",
+        "how to treat a scorpion sting",
+        "scorpion sting symptoms",
+        "scorpion sting response",
+        "scorpion sting rescue",
+        "handling a scorpion sting",
+        "scorpion sting emergency"
+      ],
+      "responses": [
+        "To help someone who has been stung by a scorpion:\n\n1. **Clean the Area**: Wash the sting area with soap and water.\n\n2. **Apply a Cool Compress**: Use a cool cloth or ice pack wrapped in a cloth to reduce pain and swelling.\n\n3. **Take Pain Relievers**: Use over-the-counter pain relievers such as ibuprofen or acetaminophen to alleviate pain.\n\n4. **Keep the Area Still**: Keep the affected limb elevated and still to reduce the spread of venom.\n\n5. **Seek Medical Help**: Seek medical attention immediately if the sting is from a venomous scorpion, if the victim is a child, or if severe symptoms occur such as difficulty breathing, muscle twitching, or unusual eye movements."
+      ]
+},
+    {
+      "tag": "cardiac_arrest",
+      "patterns": [
+        "someone collapsed",
+        "cardiac arrest first aid",
+        "what to do in cardiac arrest?",
+        "CPR steps",
+        "how to perform CPR",
+        "signs of cardiac arrest",
+        "help with cardiac arrest",
+        "unresponsive person",
+        "no pulse",
+        "cardiac emergency",
+        "heart failure response",
+        "CPR procedure",
+        "calling for help",
+        "performing chest compressions",
+        "cardiac arrest symptoms"
+      ],
+      "responses": [
+        "To assist someone in cardiac arrest:\n\n1. **Call Emergency Services**: Dial emergency services immediately.\n2. **Check Responsiveness**: Tap the person and shout to see if they respond.\n3. **Start CPR**: If unresponsive, begin CPR immediately:\n   - Place your hands on the center of the chest and compress at least 2 inches deep at a rate of 100-120 compressions per minute.\n4. **Use an AED**: If available, apply an Automated External Defibrillator (AED) as soon as possible.\n5. **Continue CPR**: Keep performing CPR until emergency responders arrive."
+      ]
+    },
+    {
+      "tag": "heart_attack",
+      "patterns": [
+        "symptoms of a heart attack",
+        "someone having a heart attack",
+        "what to do for a heart attack?",
+        "heart attack signs",
+        "chest pain emergency",
+        "how to recognize a heart attack",
+        "heart attack first aid",
+        "angina symptoms",
+        "cardiac symptoms",
+        "what happens during a heart attack",
+        "help with heart attack",
+        "heart attack treatment",
+        "heart problems response",
+        "warning signs of a heart attack",
+        "chest pressure"
+      ],
+      "responses": [
+        "To respond to a suspected heart attack:\n\n1. **Call Emergency Services**: Dial emergency services immediately.\n2. **Keep the Person Calm**: Encourage them to sit down and rest.\n3. **Loosen Tight Clothing**: Make them comfortable by loosening any tight clothing.\n4. **Monitor Symptoms**: Check for symptoms like chest pain, shortness of breath, or nausea.\n5. **Use Aspirin**: If they are conscious and not allergic, give them an aspirin unless advised against by a medical professional."
+      ]
+    },
+    {
+      "tag": "anaphylaxis",
+      "patterns": [
+        "severe allergic reaction",
+        "anaphylaxis symptoms",
+        "what to do for anaphylaxis?",
+        "allergic reaction emergency",
+        "how to treat anaphylaxis",
+        "epinephrine injection",
+        "anaphylaxis response",
+        "swelling throat",
+        "difficulty breathing",
+        "allergy first aid",
+        "symptoms of severe allergy",
+        "emergency allergy treatment",
+        "food allergy reaction",
+        "bee sting allergy",
+        "allergic shock"
+      ],
+      "responses": [
+        "To treat anaphylaxis:\n\n1. **Administer Epinephrine**: Use an epinephrine auto-injector immediately.\n2. **Call Emergency Services**: Dial emergency services right away after administering epinephrine.\n3. **Keep the Person Calm**: Help them to stay calm and seated.\n4. **Monitor Symptoms**: Watch for any worsening symptoms; be prepared to give a second dose if necessary.\n5. **Seek Further Medical Attention**: Even if symptoms improve, follow up with a healthcare provider."
+      ]
+    },
+    {
+      "tag": "sprains_and_strains",
+      "patterns": [
+        "I have a sprain",
+        "how to treat a sprain?",
+        "first aid for strains",
+        "what to do for a sprain?",
+        "injured my ankle",
+        "swollen joint",
+        "how to recover from a sprain",
+        "ligament injury care",
+        "pain from a sprain",
+        "resting a sprain",
+        "first aid for strains",
+        "how to wrap a sprain",
+        "sprain relief",
+        "twisted my wrist",
+        "strain symptoms"
+      ],
+      "responses": [
+        "To treat a sprain or strain:\n\n1. **Rest the Injury**: Avoid using the injured limb to prevent further damage.\n2. **Ice the Area**: Apply ice wrapped in a cloth to reduce swelling for 15-20 minutes.\n3. **Compression**: Use an elastic bandage to compress the area and limit swelling.\n4. **Elevation**: Elevate the injured limb above the level of the heart.\n5. **Seek Medical Attention**: If pain or swelling persists, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "fainting",
+      "patterns": [
+        "someone fainted",
+        "what to do for fainting?",
+        "fainting first aid",
+        "loss of consciousness",
+        "how to help someone who fainted",
+        "symptoms of fainting",
+        "fainting response",
+        "recovering from fainting",
+        "causes of fainting",
+        "fainting treatment",
+        "first aid for dizziness",
+        "assisting someone who has fainted",
+        "help for fainting spells",
+        "what happens when someone faints",
+        "preventing fainting"
+      ],
+      "responses": [
+        "To assist someone who has fainted:\n\n1. **Check Responsiveness**: Gently tap and speak to them to see if they respond.\n2. **Position Them Safely**: If they are unconscious, place them on their back with their legs elevated.\n3. **Loosen Tight Clothing**: Remove any constrictive clothing to aid circulation.\n4. **Monitor Breathing**: Ensure they are breathing and call for medical help if they do not regain consciousness quickly.\n5. **Stay With Them**: Keep them calm and comfortable until they recover."
+      ]
+    },
+     {
+      "tag": "poisoning",
+      "patterns": [
+        "suspected poisoning",
+        "what to do for poisoning?",
+        "poison control number",
+        "first aid for poisoning",
+        "ingested poison",
+        "inhaled poison symptoms",
+        "chemical poisoning",
+        "how to treat poisoning",
+        "signs of poisoning",
+        "emergency response for poisoning",
+        "poisoning treatment",
+        "help with poisoning",
+        "accidental poisoning",
+        "overdose symptoms",
+        "toxic substance exposure"
+      ],
+      "responses": [
+        "To respond to suspected poisoning:\n\n1. **Call Poison Control**: Dial your local poison control center immediately.\n2. **Do Not Induce Vomiting**: Unless instructed by a medical professional, do not induce vomiting.\n3. **Identify the Poison**: Try to gather information on what substance was ingested or inhaled.\n4. **Provide Information**: Be ready to provide details to emergency responders when they arrive.\n5. **Seek Medical Help**: Follow the instructions given by poison control or medical professionals."
+      ]
+    },
+    {
+      "tag": "heat_exhaustion",
+      "patterns": [
+        "symptoms of heat exhaustion",
+        "what to do for heat exhaustion?",
+        "heat exhaustion treatment",
+        "signs of overheating",
+        "first aid for heat-related illness",
+        "help with heat exhaustion",
+        "how to cool down someone",
+        "heat stroke symptoms",
+        "preventing heat exhaustion",
+        "excessive sweating",
+        "fatigue from heat",
+        "nausea due to heat",
+        "resting for heat exhaustion",
+        "rehydration for heat",
+        "how to manage heat stress"
+      ],
+      "responses": [
+        "To treat heat exhaustion:\n\n1. **Move to a Cooler Place**: Get the person to a shaded or air-conditioned area.\n2. **Hydrate**: Provide cool water or electrolyte drinks to rehydrate them.\n3. **Cool the Body**: Use cool cloths or fans to lower their body temperature.\n4. **Loosen Clothing**: Remove or loosen any tight clothing to help them cool down.\n5. **Seek Medical Attention**: If symptoms do not improve or worsen, seek medical help immediately."
+      ]
+    },
+
+    {
+      "tag": "nosebleed",
+      "patterns": [
+        "I have a nosebleed",
+        "what to do for a nosebleed?",
+        "nosebleed first aid",
+        "how to stop a nosebleed",
+        "bleeding from the nose",
+        "chronic nosebleeds",
+        "nosebleed causes",
+        "emergency for nosebleed",
+        "nosebleed symptoms",
+        "how to treat a nosebleed",
+        "stop nasal bleeding",
+        "first aid for bleeding nose",
+        "frequent nosebleeds",
+        "blood from nose",
+        "nose injury response"
+      ],
+      "responses": [
+        "To treat a nosebleed:\n\n1. **Stay Calm**: Sit down and lean slightly forward to avoid swallowing blood.\n2. **Pinch the Nose**: Pinch the soft part of your nose together for about 10 minutes.\n3. **Apply a Cold Compress**: Place a cold compress or ice pack on the back of your neck or nose.\n4. **Avoid Picking**: After the bleeding stops, avoid picking your nose for a few days.\n5. **Seek Medical Attention**: If the bleeding persists for more than 20 minutes or is heavy, seek medical help."
+      ]
+    },
+    {
+      "tag": "animal_bites",
+      "patterns": [
+        "I was bitten by an animal",
+        "how to treat an animal bite?",
+        "animal bite first aid",
+        "what to do for animal bites?",
+        "dog bite treatment",
+        "cat scratch care",
+        "infected animal bite",
+        "rabies prevention",
+        "bleeding from animal bite",
+        "first aid for bites",
+        "animal bite symptoms",
+        "caring for a bite wound",
+        "cleaning an animal bite",
+        "animal bite response",
+        "bite injury treatment"
+      ],
+      "responses": [
+        "To treat an animal bite:\n\n1. **Wash the Wound**: Immediately wash the bite area with soap and water for at least 5 minutes.\n2. **Control Bleeding**: Apply gentle pressure with a clean cloth to stop any bleeding.\n3. **Apply Antibiotic Cream**: After cleaning, apply an antiseptic or antibiotic ointment.\n4. **Cover the Wound**: Use a sterile bandage to protect the bite.\n5. **Seek Medical Attention**: If the bite is deep, won't stop bleeding, or if the animal is wild or unvaccinated, seek medical help."
+      ]
+    },
+    {
+      "tag": "insect_stings",
+      "patterns": [
+        "I got stung by an insect",
+        "how to treat an insect sting?",
+        "bee sting first aid",
+        "what to do for an insect sting?",
+        "allergic reaction to insect sting",
+        "insect bite care",
+        "symptoms of insect sting",
+        "swelling from a sting",
+        "insect sting response",
+        "remove a stinger",
+        "first aid for stings",
+        "pain from insect sting",
+        "itching from a sting",
+        "insect sting treatment",
+        "bee allergy response"
+      ],
+      "responses": [
+        "To treat an insect sting:\n\n1. **Remove the Stinger**: If there’s a stinger, scrape it out with a flat object like a credit card.\n2. **Clean the Area**: Wash the sting site with soap and water.\n3. **Apply Cold Compress**: Use a cold pack to reduce swelling and pain.\n4. **Take Pain Relievers**: Consider taking over-the-counter pain relief if needed.\n5. **Monitor for Allergic Reaction**: If symptoms worsen or you have difficulty breathing, seek emergency medical help."
+      ]
+    },
+    {
+      "tag": "fractures",
+      "patterns": [
+        "I think I have a fracture",
+        "how to treat a broken bone?",
+        "fracture first aid",
+        "signs of a fracture",
+        "what to do for a broken bone?",
+        "fracture symptoms",
+        "help with a fracture",
+        "immobilizing a fracture",
+        "bone injury care",
+        "pain from a fracture",
+        "swelling on a broken bone",
+        "first aid for fractures",
+        "call for help with fractures",
+        "broken arm treatment",
+        "broken leg response"
+      ],
+      "responses": [
+        "To assist with a fracture:\n\n1. **Do Not Move the Injury**: Keep the person still and do not attempt to move the broken bone.\n2. **Immobilize the Area**: Use splints or padding to keep the area stable.\n3. **Apply Ice**: If possible, apply ice packs wrapped in cloth to reduce swelling.\n4. **Seek Medical Attention**: Call for emergency help or transport them to the hospital.\n5. **Monitor for Shock**: Watch for signs of shock, such as pale skin or rapid breathing."
+      ]
+    },
+    {
+      "tag": "dislocations",
+      "patterns": [
+        "I think my joint is dislocated",
+        "how to treat a dislocation?",
+        "dislocation first aid",
+        "signs of a dislocated joint",
+        "what to do for a dislocated shoulder?",
+        "joint injury care",
+        "help with a dislocation",
+        "swelling around a joint",
+        "first aid for dislocations",
+        "dislocation symptoms",
+        "joint pain response",
+        "immobilizing a dislocated joint",
+        "dislocated finger treatment",
+        "dislocated knee care",
+        "call for help with dislocations"
+      ],
+      "responses": [
+        "To treat a dislocation:\n\n1. **Do Not Attempt to Relocate**: Do not try to push the joint back into place.\n2. **Immobilize the Joint**: Use a splint or support to keep the joint stable and still.\n3. **Apply Ice**: Place ice packs on the affected area to reduce swelling.\n4. **Seek Medical Attention**: Get the person to a hospital or call for emergency services.\n5. **Monitor for Circulation**: Check for blood flow to the fingers or toes beyond the injury."
+      ]
+    },
+    {
+      "tag": "hypothermia",
+      "patterns": [
+        "symptoms of hypothermia",
+        "what to do for hypothermia?",
+        "hypothermia first aid",
+        "cold weather response",
+        "how to treat someone with hypothermia",
+        "shivering and confusion",
+        "help with hypothermia",
+        "signs of cold stress",
+        "frostbite symptoms",
+        "emergency for hypothermia",
+        "body temperature too low",
+        "hypothermia care tips",
+        "preventing hypothermia",
+        "freezing conditions response",
+        "cold exposure treatment"
+      ],
+      "responses": [
+        "To assist someone with hypothermia:\n\n1. **Call Emergency Services**: Dial for medical help immediately.\n2. **Move to a Warm Place**: Get them indoors or to a sheltered area away from cold.\n3. **Remove Wet Clothing**: Change their wet clothes for dry ones to retain heat.\n4. **Warm the Body**: Use warm, dry blankets and heat packs, focusing on the chest and groin.\n5. **Monitor Their Condition**: Keep an eye on their responsiveness and body temperature."
+      ]
+    },
+    {
+      "tag": "heat_stroke",
+      "patterns": [
+        "symptoms of heat stroke",
+        "what to do for heat stroke?",
+        "heat stroke first aid",
+        "high body temperature response",
+        "how to cool down someone with heat stroke",
+        "heat-related illness",
+        "signs of overheating",
+        "emergency response for heat stroke",
+        "hot and dry skin",
+        "nausea from heat stroke",
+        "confusion from heat",
+        "first aid for heat stroke",
+        "cooling measures for heat stroke",
+        "preventing heat stroke",
+        "exercise in heat response"
+      ],
+      "responses": [
+        "To treat heat stroke:\n\n1. **Call Emergency Services**: Dial for immediate medical assistance.\n2. **Move to a Cooler Place**: Get the person to a shaded or air-conditioned area.\n3. **Cool the Body**: Remove excess clothing and use cool water or ice packs on the skin.\n4. **Hydrate**: If they are conscious, provide cool water or electrolyte drinks.\n5. **Monitor Symptoms**: Keep an eye on their temperature and breathing until help arrives."
+      ]
+    },
+    {
+      "tag": "seizures",
+      "patterns": [
+        "someone is having a seizure",
+        "what to do for a seizure?",
+        "seizure first aid",
+        "help with seizures",
+        "how to assist during a seizure",
+        "seizure response",
+        "epileptic seizure care",
+        "signs of seizure activity",
+        "what to do after a seizure",
+        "first aid for convulsions",
+        "seizure symptoms",
+        "protecting someone during a seizure",
+        "call for help with seizures",
+        "seizure disorder response",
+        "seizure precautions"
+      ],
+      "responses": [
+        "To assist someone having a seizure:\n\n1. **Stay Calm**: Keep calm and time the seizure duration.\n2. **Protect the Person**: Move any nearby dangerous objects away.\n3. **Place Them on Their Side**: If possible, turn them onto their side to help keep the airway clear.\n4. **Do Not Restrain Them**: Allow the seizure to happen without holding them down.\n5. **Seek Medical Help**: If the seizure lasts longer than 5 minutes or if it’s their first seizure, call for emergency assistance."
+      ]
+    },
+    {
+      "tag": "asthma_attack",
+      "patterns": [
+        "I am having an asthma attack",
+        "how to treat asthma attack?",
+        "asthma first aid",
+        "what to do for asthma symptoms?",
+        "help with asthma",
+        "shortness of breath response",
+        "using an inhaler",
+        "asthma attack signs",
+        "call for help with asthma",
+        "first aid for asthma",
+        "wheezing during attack",
+        "tightness in the chest",
+        "asthma medication response",
+        "emergency for asthma",
+        "preventing asthma attacks"
+      ],
+      "responses": [
+        "To assist someone during an asthma attack:\n\n1. **Stay Calm**: Encourage the person to remain calm.\n2. **Use Inhaler**: Help them use their prescribed inhaler or nebulizer.\n3. **Sit Upright**: Have them sit upright to help open their airways.\n4. **Loosen Tight Clothing**: Remove any tight clothing around their neck or chest.\n5. **Seek Medical Help**: If symptoms do not improve or worsen, seek emergency medical assistance."
+      ]
+    },
+    {
+      "tag": "drowning",
+      "patterns": [
+        "someone is drowning",
+        "how to respond to drowning?",
+        "drowning first aid",
+        "what to do for drowning?",
+        "water rescue response",
+        "help with drowning",
+        "signs of drowning",
+        "calling for help with drowning",
+        "CPR for drowning",
+        "rescue breathing for drowning",
+        "preventing drowning",
+        "water safety tips",
+        "emergency response for drowning",
+        "drowning treatment",
+        "how to save someone from drowning"
+      ],
+      "responses": [
+        "To respond to drowning:\n\n1. **Call Emergency Services**: Dial for immediate medical help before attempting a rescue.\n2. **Rescue the Person**: If safe, reach or throw a flotation device to the person, avoiding direct entry into the water.\n3. **Check Breathing**: Once rescued, check if they are breathing and perform CPR if necessary.\n4. **Provide Rescue Breathing**: If not breathing, give rescue breaths and chest compressions until help arrives.\n5. **Monitor Their Condition**: Keep the person warm and monitor for any complications."
+      ]
+    },
+
+    {
+      "tag": "electric_shock",
+      "patterns": [
+        "I got an electric shock",
+        "what to do after electric shock?",
+        "electric shock first aid",
+        "signs of electric shock",
+        "how to treat electric shock",
+        "shock from electricity",
+        "call for help after electric shock",
+        "help with electric shock",
+        "emergency response for electric shock",
+        "symptoms of electric shock",
+        "heart issues from electric shock",
+        "first aid for electric shock",
+        "severe electric shock care",
+        "electric shock treatment",
+        "protecting others from electric shock"
+      ],
+      "responses": [
+        "To assist someone who has received an electric shock:\n\n1. **Do Not Touch Them**: Ensure the source of electricity is turned off or use a non-conductive object to move them away from the source.\n2. **Call Emergency Services**: Dial for immediate medical assistance.\n3. **Check Breathing and Pulse**: If they are unresponsive, begin CPR if necessary.\n4. **Monitor Their Condition**: Stay with them until help arrives and monitor for any signs of shock or injury.\n5. **Seek Medical Evaluation**: Even if they seem fine, advise a medical check-up to assess internal injuries."
+      ]
+    },
+    {
+      "tag": "concussion",
+      "patterns": [
+        "I think I have a concussion",
+        "how to treat a concussion?",
+        "signs of concussion",
+        "what to do after a head injury?",
+        "head trauma care",
+        "symptoms of concussion",
+        "first aid for concussion",
+        "monitoring for concussions",
+        "emergency response for concussion",
+        "help with head injuries",
+        "confusion after head injury",
+        "nausea from concussion",
+        "dizziness and headaches",
+        "concussion symptoms response",
+        "brain injury care"
+      ],
+      "responses": [
+        "To assist someone with a concussion:\n\n1. **Stay Calm**: Reassure the person and keep them still.\n2. **Avoid Physical Activity**: Do not let them engage in any physical activities.\n3. **Monitor Symptoms**: Keep an eye on their symptoms, looking for worsening conditions like confusion or vomiting.\n4. **Seek Medical Attention**: If symptoms worsen or persist, seek medical help immediately.\n5. **Rest and Recovery**: Encourage rest and limit screen time to aid recovery."
+      ]
+    },
+    {
+      "tag": "sudden_headache",
+      "patterns": [
+        "I have a sudden headache",
+        "what to do for a sudden headache?",
+        "headache first aid",
+        "causes of sudden headaches",
+        "emergency response for headache",
+        "severe headache symptoms",
+        "help with migraines",
+        "tension headache care",
+        "chronic headache treatment",
+        "head pain response",
+        "nausea from headache",
+        "first aid for headaches",
+        "monitoring headaches",
+        "head injury headache",
+        "severe headache warning signs"
+      ],
+      "responses": [
+        "To assist someone with a sudden headache:\n\n1. **Sit in a Comfortable Position**: Encourage them to sit or lie down in a quiet, dark room.\n2. **Hydrate**: Offer water to ensure they are hydrated, as dehydration can cause headaches.\n3. **Apply a Cold Compress**: Use a cold pack on their forehead for relief.\n4. **Monitor Symptoms**: Keep track of any other symptoms, especially if headaches worsen.\n5. **Seek Medical Help**: If the headache is severe, sudden, or accompanied by other concerning symptoms, seek immediate medical attention."
+      ]
+    },
+    {
+      "tag": "stroke_symptoms",
+      "patterns": [
+        "what are the symptoms of a stroke?",
+        "how to recognize a stroke?",
+        "stroke first aid",
+        "sudden weakness on one side",
+        "slurred speech symptoms",
+        "face drooping signs",
+        "stroke emergency response",
+        "call for help with stroke",
+        "FAST method for stroke",
+        "headache and confusion",
+        "difficulty walking response",
+        "numbness during stroke",
+        "seeking help for stroke symptoms",
+        "rapid response to stroke",
+        "stroke care tips"
+      ],
+      "responses": [
+        "To recognize and respond to a stroke:\n\n1. **Use the FAST Method**:\n   - **F**ace: Ask them to smile. Does one side droop?\n   - **A**rms: Ask them to raise both arms. Does one arm drift downward?\n   - **S**peech: Ask them to repeat a simple phrase. Is their speech slurred or strange?\n   - **T**ime: If you observe any of these signs, call emergency services immediately.\n2. **Keep Them Calm**: Stay with the person and keep them as calm as possible.\n3. **Do Not Give Food/Drink**: Do not give them anything to eat or drink until evaluated by medical personnel.\n4. **Monitor Their Condition**: Note the time symptoms started for medical teams.\n5. **Act Quickly**: Rapid treatment can improve recovery chances."
+      ]
+    },
+    {
+      "tag": "abdominal_pain",
+      "patterns": [
+        "I have abdominal pain",
+        "what to do for stomach pain?",
+        "abdominal pain first aid",
+        "causes of stomach pain",
+        "emergency response for abdominal pain",
+        "severe stomach ache symptoms",
+        "help with cramping",
+        "nausea and abdominal pain",
+        "monitoring stomach issues",
+        "treating abdominal pain",
+        "stomach injury care",
+        "first aid for stomach pain",
+        "signs of appendicitis",
+        "pain relief for abdomen",
+        "abdominal pain response"
+      ],
+      "responses": [
+        "To assist someone with abdominal pain:\n\n1. **Stay Calm**: Reassure them and help them sit or lie down comfortably.\n2. **Assess Symptoms**: Ask about the nature and location of the pain; look for any severe symptoms.\n3. **Do Not Eat or Drink**: Advise them not to eat or drink anything until evaluated.\n4. **Seek Medical Help**: If the pain is severe, sudden, or accompanied by other symptoms (like fever or vomiting), seek medical assistance.\n5. **Monitor Condition**: Keep an eye on their symptoms and comfort until help arrives."
+      ]
+    },
+    {
+      "tag": "cuts_from_glass",
+      "patterns": [
+        "I cut myself on glass",
+        "how to treat a cut from glass?",
+        "first aid for glass cuts",
+        "what to do for a deep cut?",
+        "cleaning a cut from glass",
+        "severe cuts response",
+        "bleeding from a glass cut",
+        "glass injury care",
+        "stitches for glass cuts",
+        "how to stop bleeding from a cut",
+        "monitoring a glass cut",
+        "first aid kit for cuts",
+        "wound care after cuts",
+        "glass shard in skin",
+        "call for help with cuts"
+      ],
+      "responses": [
+        "To treat a cut from glass:\n\n1. **Stop the Bleeding**: Apply gentle pressure with a clean cloth.\n2. **Clean the Wound**: Rinse the cut under clean water to remove any glass particles and debris.\n3. **Apply Antiseptic**: Use an antiseptic to prevent infection and cover with a sterile bandage.\n4. **Seek Medical Attention**: If the cut is deep, won't stop bleeding, or if glass remains in the wound, seek medical help immediately.\n5. **Watch for Infection**: Monitor for signs of infection like redness, swelling, or pus."
+      ]
+    },
+    {
+      "tag": "foreign_object_in_eye",
+      "patterns": [
+        "there's something in my eye",
+        "how to get a foreign object out of the eye?",
+        "first aid for eye injury",
+        "foreign body in eye response",
+        "what to do if something is stuck in my eye?",
+        "irritation from foreign object",
+        "eye care after injury",
+        "flushing out an eye",
+        "symptoms of eye injury",
+        "emergency response for eye injuries",
+        "contact lens issues",
+        "do not rub your eye",
+        "removing debris from eye",
+        "eye pain care",
+        "call for help with eye injury"
+      ],
+      "responses": [
+        "To assist with a foreign object in the eye:\n\n1. **Do Not Rub the Eye**: Rubbing can cause further injury.\n2. **Flush the Eye**: Rinse the eye with clean water or saline solution.\n3. **Blink Often**: Encourage blinking to try to remove the object naturally.\n4. **Seek Medical Attention**: If the object does not come out, or if there’s pain or vision changes, seek immediate help.\n5. **Cover the Eye**: If there’s severe injury, cover the eye with a clean cloth and avoid using it."
+      ]
+    },
+    {
+      "tag": "sunburn",
+      "patterns": [
+        "I got sunburned",
+        "how to treat sunburn?",
+        "sunburn first aid",
+        "relief for sunburn pain",
+        "what to do for sunburn?",
+        "preventing sunburn",
+        "after sun care",
+        "soothing sunburn",
+        "severe sunburn symptoms",
+        "blisters from sunburn",
+        "skin healing after sunburn",
+        "emergency response for sunburn",
+        "cooling sunburn relief",
+        "moisturizing sunburned skin",
+        "call for help with severe sunburn"
+      ],
+      "responses": [
+        "To treat sunburn:\n\n1. **Cool the Skin**: Take a cool bath or shower to help relieve the heat.\n2. **Moisturize**: Apply aloe vera or a moisturizing lotion to soothe the skin.\n3. **Stay Hydrated**: Drink plenty of water to help your body recover.\n4. **Avoid Further Sun Exposure**: Stay out of the sun until your skin heals.\n5. **Seek Medical Help**: If blisters develop or if there’s severe pain, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "foot_injury",
+      "patterns": [
+        "I injured my foot",
+        "what to do for a foot injury?",
+        "first aid for foot injuries",
+        "how to treat a puncture wound in foot?",
+        "foot pain response",
+        "swelling after foot injury",
+        "monitoring foot injuries",
+        "help with bruised foot",
+        "severe pain in foot",
+        "call for help with foot injury",
+        "foot injury care tips",
+        "resting a foot injury",
+        "icing a foot injury",
+        "bandaging a foot injury",
+        "when to see a doctor for foot injury"
+      ],
+      "responses": [
+        "To assist someone with a foot injury:\n\n1. **Rest the Foot**: Encourage them to avoid putting weight on the injured foot.\n2. **Ice the Area**: Apply ice to reduce swelling and pain.\n3. **Clean Any Wounds**: If there’s a cut, clean it with water and apply a sterile bandage.\n4. **Elevate the Foot**: Keep the foot elevated to reduce swelling.\n5. **Seek Medical Attention**: If there’s severe pain, deformity, or inability to move the foot, seek medical help."
+      ]
+    },
+    {
+      "tag": "wrist_injury",
+      "patterns": [
+        "I hurt my wrist",
+        "how to treat a wrist injury?",
+        "first aid for wrist injuries",
+        "swelling in wrist response",
+        "monitoring wrist pain",
+        "wrist sprain care",
+        "signs of a broken wrist",
+        "help with wrist injuries",
+        "emergency response for wrist injury",
+        "wrist injury symptoms",
+        "when to seek medical help for wrist",
+        "resting a wrist injury",
+        "icing a wrist injury",
+        "supporting a wrist injury",
+        "call for help with wrist injury"
+      ],
+      "responses": [
+        "To assist someone with a wrist injury:\n\n1. **Rest the Wrist**: Encourage them to avoid using the injured wrist.\n2. **Ice the Area**: Apply ice for 15-20 minutes to reduce swelling.\n3. **Compress and Elevate**: Use a compression bandage and keep the wrist elevated.\n4. **Seek Medical Attention**: If there’s severe pain, swelling, or deformity, consult a healthcare professional.\n5. **Avoid Movement**: Do not move the wrist until it has been evaluated."
+      ]
+    },
+    {
+      "tag": "blisters",
+      "patterns": [
+        "I have a blister",
+        "how to treat a blister?",
+        "blister care first aid",
+        "what to do for a blister?",
+        "painful blister response",
+        "blisters on feet advice",
+        "preventing blisters",
+        "monitoring a blister",
+        "call for help with blisters",
+        "blister healing tips",
+        "what causes blisters?",
+        "treating a popped blister",
+        "blister prevention techniques",
+        "when to see a doctor for a blister",
+        "caring for blisters at home"
+      ],
+      "responses": [
+        "To assist someone with a blister:\n\n1. **Clean the Area**: Gently wash the blister and surrounding skin with soap and water.\n2. **Do Not Pop**: If possible, avoid popping the blister to prevent infection.\n3. **Protect the Blister**: Cover it with a sterile bandage or dressing to shield it from friction.\n4. **Keep it Dry**: Ensure the area stays dry and clean to promote healing.\n5. **Seek Medical Help**: If the blister is large, painful, or shows signs of infection, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "calluses",
+      "patterns": [
+        "I have calluses",
+        "how to treat calluses?",
+        "callus care first aid",
+        "what to do for calluses?",
+        "painful calluses response",
+        "callus removal tips",
+        "preventing calluses",
+        "monitoring calluses",
+        "callus treatment options",
+        "when to see a doctor for calluses",
+        "soothing callus pain",
+        "care for foot calluses",
+        "home remedies for calluses",
+        "callus prevention techniques",
+        "caring for thickened skin"
+      ],
+      "responses": [
+        "To assist someone with calluses:\n\n1. **Soak the Area**: Soak the affected area in warm, soapy water to soften the skin.\n2. **Gently Exfoliate**: Use a pumice stone or foot file to gently remove dead skin.\n3. **Moisturize**: Apply a thick moisturizer to the area to keep the skin soft.\n4. **Use Proper Footwear**: Encourage wearing well-fitting shoes to reduce friction.\n5. **Seek Medical Help**: If calluses are painful or persist, consult a healthcare professional for treatment."
+      ]
+    },
+    {
+      "tag": "splinters",
+      "patterns": [
+        "I have a splinter",
+        "how to remove a splinter?",
+        "splinter care first aid",
+        "what to do for a splinter?",
+        "painful splinter response",
+        "treating a deep splinter",
+        "splinter removal tips",
+        "monitoring a splinter",
+        "call for help with splinters",
+        "what causes splinters?",
+        "preventing splinters",
+        "when to see a doctor for a splinter",
+        "caring for minor splinters",
+        "home remedies for splinter removal",
+        "splinter infection signs"
+      ],
+      "responses": [
+        "To assist someone with a splinter:\n\n1. **Wash Your Hands**: Ensure your hands are clean before handling the area.\n2. **Use Sterile Tweezers**: Gently grasp the splinter with sterilized tweezers and pull it out in the direction it entered.\n3. **Clean the Area**: After removal, wash the area with soap and water and apply an antiseptic.\n4. **Cover the Wound**: Use a clean bandage to protect the area from infection.\n5. **Seek Medical Help**: If the splinter is deep or infected, seek medical assistance."
+      ]
+    },
+    {
+      "tag": "slips_and_falls",
+      "patterns": [
+        "I slipped and fell",
+        "how to treat a fall injury?",
+        "first aid for slips and falls",
+        "what to do after a fall?",
+        "pain after slipping response",
+        "monitoring fall injuries",
+        "call for help after a fall",
+        "fall injury assessment",
+        "help with minor injuries from falls",
+        "when to seek help after a fall",
+        "common fall injuries",
+        "resting after a slip",
+        "fall prevention tips",
+        "assessing for fractures after a fall",
+        "seeking medical help for falls"
+      ],
+      "responses": [
+        "To assist someone after a slip and fall:\n\n1. **Assess for Injuries**: Check for any visible injuries, especially to the head, neck, or back.\n2. **Help Them Sit**: If they are unsteady, assist them in sitting down safely.\n3. **Ice Any Swelling**: Apply ice to any bruises or swelling to reduce inflammation.\n4. **Encourage Rest**: Advise them to rest and avoid putting weight on any injured areas.\n5. **Seek Medical Help**: If they are in severe pain, cannot move, or show other concerning symptoms, call for medical assistance."
+      ]
+    },
+    {
+      "tag": "lacerations",
+      "patterns": [
+        "I have a cut",
+        "how to treat a laceration?",
+        "first aid for cuts",
+        "what to do for a deep cut?",
+        "bleeding from a cut response",
+        "monitoring lacerations",
+        "call for help with cuts",
+        "cleaning a laceration",
+        "how to bandage a cut?",
+        "when to seek help for a laceration",
+        "stitches for deep cuts",
+        "laceration care tips",
+        "preventing infection in cuts",
+        "caring for minor lacerations",
+        "how to stop bleeding from a cut?"
+      ],
+      "responses": [
+        "To assist someone with a laceration:\n\n1. **Stop the Bleeding**: Apply gentle pressure with a clean cloth or bandage until the bleeding stops.\n2. **Clean the Wound**: Rinse the cut under clean water and apply mild soap around the area.\n3. **Apply an Antiseptic**: Use an antiseptic to prevent infection, then cover with a sterile bandage.\n4. **Monitor for Infection**: Watch for redness, swelling, or discharge.\n5. **Seek Medical Help**: If the cut is deep, won't stop bleeding, or shows signs of infection, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "soft_tissue_injuries",
+      "patterns": [
+        "I have a soft tissue injury",
+        "how to treat soft tissue injuries?",
+        "first aid for soft tissue injuries",
+        "what to do for strains or sprains?",
+        "pain from soft tissue injuries response",
+        "monitoring soft tissue damage",
+        "call for help with soft tissue injuries",
+        "RICE method for soft tissue injuries",
+        "when to seek help for soft tissue injuries",
+        "caring for sprains and strains",
+        "preventing soft tissue injuries",
+        "treatment options for soft tissue injuries",
+        "helping with muscle strains",
+        "resting after a soft tissue injury",
+        "rehabilitation for soft tissue injuries"
+      ],
+      "responses": [
+        "To assist someone with a soft tissue injury:\n\n1. **Rest the Area**: Advise them to avoid using the injured area to prevent further damage.\n2. **Ice the Injury**: Apply ice packs for 15-20 minutes to reduce swelling.\n3. **Compression**: Use a compression bandage to minimize swelling.\n4. **Elevate the Injured Area**: Keep the area elevated to reduce swelling.\n5. **Seek Medical Help**: If pain persists or worsens, encourage them to see a healthcare professional."
+      ]
+    },
+    {
+      "tag": "rib_injury",
+      "patterns": [
+        "I think I hurt my ribs",
+        "how to treat a rib injury?",
+        "first aid for rib injuries",
+        "what to do for rib pain?",
+        "pain while breathing response",
+        "monitoring rib injuries",
+        "call for help with rib injury",
+        "supporting rib injuries",
+        "when to seek help for rib pain",
+        "caring for rib fractures",
+        "preventing rib injuries",
+        "deep breaths and rib injuries",
+        "pain management for rib injuries",
+        "resting after rib injury",
+        "seeking medical attention for ribs"
+      ],
+      "responses": [
+        "To assist someone with a rib injury:\n\n1. **Help Them Stay Calm**: Encourage slow, deep breaths to minimize pain.\n2. **Avoid Movement**: Advise them to avoid twisting or moving that can aggravate the injury.\n3. **Ice the Area**: Apply ice to reduce swelling and pain.\n4. **Pain Relief**: Offer over-the-counter pain relievers as needed.\n5. **Seek Medical Help**: If they have difficulty breathing or severe pain, call for medical assistance."
+      ]
+    },
+    {
+      "tag": "puncture_wounds",
+      "patterns": [
+        "I have a puncture wound",
+        "how to treat a puncture wound?",
+        "first aid for puncture wounds",
+        "what to do for a deep puncture?",
+        "pain from puncture wound response",
+        "monitoring puncture wounds",
+        "call for help with puncture wounds",
+        "cleaning a puncture wound",
+        "when to seek help for a puncture wound",
+        "preventing infection in puncture wounds",
+        "caring for minor puncture wounds",
+        "signs of infection in puncture wounds",
+        "home care for puncture wounds",
+        "tetanus shot for puncture wounds",
+        "monitoring healing of puncture wounds"
+      ],
+      "responses": [
+        "To assist someone with a puncture wound:\n\n1. **Stop the Bleeding**: Apply gentle pressure to control bleeding.\n2. **Clean the Wound**: Rinse under clean water and gently clean around it.\n3. **Apply an Antiseptic**: Use an antiseptic to prevent infection.\n4. **Cover the Wound**: Use a sterile bandage to protect the area.\n5. **Seek Medical Help**: If there are signs of infection or if the object is deeply embedded, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "ear_injury",
+      "patterns": [
+        "I injured my ear",
+        "how to treat an ear injury?",
+        "first aid for ear injuries",
+        "what to do for an ear injury?",
+        "pain in my ear response",
+        "monitoring ear injuries",
+        "call for help with ear injury",
+        "cleaning an ear injury",
+        "when to seek help for ear pain",
+        "caring for minor ear injuries",
+        "ear injury symptoms",
+        "preventing ear injuries",
+        "treatment options for ear injuries",
+        "resting after ear injury",
+        "ear injury assessment"
+      ],
+      "responses": [
+        "To assist someone with an ear injury:\n\n1. **Keep the Head Still**: Advise them to keep their head still to avoid further injury.\n2. **Stop Bleeding**: If there is bleeding, apply gentle pressure with a clean cloth.\n3. **Do Not Insert Anything**: Avoid inserting cotton swabs or other objects into the ear.\n4. **Seek Medical Help**: If there is severe pain, bleeding, or loss of hearing, call for medical assistance.\n5. **Monitor Symptoms**: Keep an eye on any changes in symptoms, especially dizziness or discharge."
+      ]
+    },
+    {
+      "tag": "eye_injury_chemical_exposure",
+      "patterns": [
+        "I got something in my eye",
+        "how to treat chemical exposure in the eye?",
+        "first aid for eye injuries",
+        "what to do for eye irritation?",
+        "pain in my eye response",
+        "monitoring eye injuries",
+        "call for help with eye injury",
+        "flushing out chemicals from the eye",
+        "when to seek help for eye injuries",
+        "caring for minor eye injuries",
+        "signs of serious eye injury",
+        "preventing eye injuries",
+        "treatment options for eye injuries",
+        "eye injury assessment",
+        "emergency response for chemical exposure"
+      ],
+      "responses": [
+        "To assist someone with an eye injury due to chemical exposure:\n\n1. **Flush the Eye Immediately**: Rinse the eye with clean water for at least 15 minutes.\n2. **Do Not Rub**: Advise them not to rub their eye as it may worsen the injury.\n3. **Remove Contact Lenses**: If they wear contacts, remove them as soon as possible.\n4. **Seek Medical Help**: After flushing, seek immediate medical assistance to evaluate the injury.\n5. **Monitor Symptoms**: Keep an eye on any changes in vision or persistent pain."
+      ]
+    },
+
+    {
+      "tag": "chest_pain",
+      "patterns": [
+        "I have chest pain",
+        "what to do for chest pain?",
+        "symptoms of chest pain",
+        "severe chest pain response",
+        "chest pain first aid",
+        "pain in my chest",
+        "tightness in my chest",
+        "chest discomfort symptoms",
+        "when to seek help for chest pain",
+        "chest pain and shortness of breath",
+        "heart attack signs",
+        "chest pain assessment",
+        "urgent care for chest pain",
+        "chest pain advice",
+        "chest pain relief methods"
+      ],
+      "responses": [
+        "To assist someone experiencing chest pain:\n\n1. **Stay Calm**: Encourage them to remain calm and seated.\n2. **Call for Help**: If the pain is severe or accompanied by shortness of breath, call emergency services immediately.\n3. **Loosen Tight Clothing**: Help them remove or loosen any tight clothing.\n4. **Monitor Symptoms**: Keep an eye on their condition and note any changes.\n5. **Seek Medical Help**: If pain persists or worsens, immediate medical attention is crucial."
+      ]
+    },
+    {
+      "tag": "nausea_and_vomiting",
+      "patterns": [
+        "I feel nauseous",
+        "what to do for nausea?",
+        "nausea and vomiting first aid",
+        "how to treat vomiting?",
+        "relief for nausea response",
+        "causes of nausea",
+        "nausea and dizziness",
+        "when to seek help for nausea",
+        "home remedies for nausea",
+        "vomiting assessment",
+        "caring for someone who is vomiting",
+        "nausea relief techniques",
+        "severe nausea symptoms",
+        "monitoring vomiting",
+        "food poisoning signs"
+      ],
+      "responses": [
+        "To assist someone experiencing nausea and vomiting:\n\n1. **Help Them Sit Comfortably**: Encourage them to sit in a comfortable position to ease discomfort.\n2. **Offer Water**: Provide small sips of water or an electrolyte drink to prevent dehydration.\n3. **Avoid Strong Odors**: Keep them away from strong smells that may worsen nausea.\n4. **Monitor Symptoms**: Observe for signs of dehydration or persistent vomiting.\n5. **Seek Medical Help**: If nausea lasts for more than a few hours or is severe, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "toothache",
+      "patterns": [
+        "I have a toothache",
+        "how to relieve a toothache?",
+        "tooth pain first aid",
+        "what to do for tooth pain?",
+        "pain in my tooth response",
+        "monitoring a toothache",
+        "call for help with a toothache",
+        "home remedies for toothache",
+        "toothache assessment",
+        "when to see a dentist for tooth pain",
+        "caring for tooth pain",
+        "avoiding toothache triggers",
+        "pain management for toothaches",
+        "sensitive teeth solutions",
+        "oral care for toothaches"
+      ],
+      "responses": [
+        "To assist someone with a toothache:\n\n1. **Rinse with Warm Salt Water**: Encourage them to rinse their mouth with warm salt water to reduce inflammation.\n2. **Apply a Cold Compress**: Use a cold pack on the outside of the cheek to alleviate pain.\n3. **Avoid Certain Foods**: Advise them to avoid very hot, cold, or sugary foods that may worsen the pain.\n4. **Over-the-Counter Pain Relievers**: Recommend appropriate pain relievers if needed.\n5. **Seek Dental Help**: Encourage them to see a dentist as soon as possible for proper diagnosis and treatment."
+      ]
+    },
+    {
+      "tag": "throat_injury",
+      "patterns": [
+        "I have a throat injury",
+        "how to treat a throat injury?",
+        "first aid for throat injury",
+        "what to do for throat pain?",
+        "pain in my throat response",
+        "monitoring throat injuries",
+        "call for help with throat injury",
+        "swallowing difficulties and throat injury",
+        "when to seek help for throat injuries",
+        "caring for minor throat injuries",
+        "signs of throat injury",
+        "preventing throat injuries",
+        "treatment options for throat injuries",
+        "resting after throat injury",
+        "throat injury assessment"
+      ],
+      "responses": [
+        "To assist someone with a throat injury:\n\n1. **Stay Calm**: Keep the person calm to avoid further distress.\n2. **Avoid Swallowing**: Advise them to avoid swallowing if it causes pain.\n3. **Monitor Breathing**: Check for any difficulties in breathing.\n4. **Seek Medical Help**: If there are signs of severe injury or difficulty breathing, call for emergency medical assistance.\n5. **Rest the Throat**: Encourage them to rest their voice and avoid irritants."
+      ]
+    },
+    {
+      "tag": "chemical_burns",
+      "patterns": [
+        "I have a chemical burn",
+        "how to treat a chemical burn?",
+        "first aid for chemical burns",
+        "what to do for skin burns?",
+        "pain from chemical burns response",
+        "monitoring chemical burn injuries",
+        "call for help with chemical burns",
+        "decontamination for chemical burns",
+        "when to seek help for chemical burns",
+        "caring for chemical burn wounds",
+        "signs of chemical burns",
+        "preventing chemical burns",
+        "treatment options for chemical burns",
+        "first aid for skin irritation",
+        "burn injury assessment"
+      ],
+      "responses": [
+        "To assist someone with a chemical burn:\n\n1. **Remove Contaminants**: Immediately remove any clothing or jewelry contaminated by the chemical.\n2. **Rinse with Water**: Rinse the affected area with copious amounts of cool water for at least 20 minutes.\n3. **Do Not Apply Creams**: Avoid applying ointments or creams to the burn.\n4. **Cover the Area**: After rinsing, cover the burn with a sterile bandage.\n5. **Seek Medical Help**: Always consult a healthcare professional for chemical burns, regardless of severity."
+      ]
+    },
+    {
+      "tag": "electric_burns",
+      "patterns": [
+        "I have an electric burn",
+        "how to treat an electric burn?",
+        "first aid for electric burns",
+        "what to do for electrical injuries?",
+        "pain from electric burns response",
+        "monitoring electric burn injuries",
+        "call for help with electric burns",
+        "preventing electric shock injuries",
+        "when to seek help for electric burns",
+        "caring for electric burn wounds",
+        "signs of electric burns",
+        "treatment options for electric burns",
+        "burn injury assessment",
+        "first aid for electrical injuries",
+        "assessing damage from electric burns"
+      ],
+      "responses": [
+        "To assist someone with an electric burn:\n\n1. **Turn Off Power**: Ensure the source of electricity is turned off before approaching.\n2. **Check for Breathing**: If unconscious, check for breathing and initiate CPR if necessary.\n3. **Assess the Burns**: Examine the burns for severity; do not immerse in water.\n4. **Cover with a Clean Cloth**: Cover the burn with a clean, dry cloth or sterile bandage.\n5. **Seek Medical Help**: All electric burns should be evaluated by a healthcare professional."
+      ]
+    },
+    {
+      "tag": "wasp_sting",
+      "patterns": [
+        "I got stung by a wasp",
+        "how to treat a wasp sting?",
+        "first aid for wasp stings",
+        "what to do for a wasp sting?",
+        "pain from wasp sting response",
+        "monitoring wasp stings",
+        "call for help with wasp stings",
+        "reducing pain from wasp stings",
+        "when to seek help for wasp stings",
+        "caring for insect stings",
+        "signs of allergic reaction to stings",
+        "treatment options for wasp stings",
+        "preventing future stings",
+        "home remedies for insect stings",
+        "wasp sting assessment"
+      ],
+      "responses": [
+        "To assist someone with a wasp sting:\n\n1. **Remove the Stinger**: If the stinger is still present, gently scrape it out with a flat object.\n2. **Wash the Area**: Clean the sting site with soap and water.\n3. **Apply a Cold Compress**: Use a cold pack to reduce swelling and pain.\n4. **Monitor for Allergic Reactions**: Watch for signs of a severe allergic reaction, such as difficulty breathing.\n5. **Seek Medical Help**: If an allergic reaction occurs, call for emergency assistance immediately."
+      ]
+    },
+    {
+      "tag": "bee_sting",
+      "patterns": [
+        "I got stung by a bee",
+        "how to treat a bee sting?",
+        "first aid for bee stings",
+        "what to do for a bee sting?",
+        "pain from bee sting response",
+        "monitoring bee stings",
+        "call for help with bee stings",
+        "reducing pain from bee stings",
+        "when to seek help for bee stings",
+        "caring for insect stings",
+        "signs of allergic reaction to stings",
+        "treatment options for bee stings",
+        "preventing future stings",
+        "home remedies for bee stings",
+        "bee sting assessment"
+      ],
+      "responses": [
+        "To assist someone with a bee sting:\n\n1. **Remove the Stinger**: If the stinger is present, carefully scrape it out.\n2. **Wash the Area**: Clean the sting site with soap and water to prevent infection.\n3. **Apply a Cold Compress**: Place a cold pack on the affected area to reduce swelling and discomfort.\n4. **Monitor Symptoms**: Look for any signs of an allergic reaction, such as hives or difficulty breathing.\n5. **Seek Medical Help**: If severe symptoms develop, seek emergency medical assistance immediately."
+      ]
+    },
+    {
+      "tag": "ankle_injury",
+      "patterns": [
+        "I injured my ankle",
+        "how to treat an ankle injury?",
+        "first aid for ankle injuries",
+        "what to do for an ankle sprain?",
+        "pain from ankle injury response",
+        "monitoring ankle injuries",
+        "call for help with ankle injury",
+        "resting an injured ankle",
+        "when to seek help for ankle injuries",
+        "caring for ankle injuries",
+        "signs of ankle injury",
+        "preventing ankle injuries",
+        "treatment options for ankle injuries",
+        "ankle injury assessment",
+        "rehabilitation for ankle injuries"
+      ],
+      "responses": [
+        "To assist someone with an ankle injury:\n\n1. **Rest the Ankle**: Advise them to avoid putting weight on the injured ankle.\n2. **Ice the Area**: Apply ice wrapped in a cloth for 15-20 minutes to reduce swelling.\n3. **Compression**: Use an elastic bandage to provide support and reduce swelling.\n4. **Elevate**: Encourage them to keep the ankle elevated above heart level.\n5. **Seek Medical Help**: If swelling persists or if there is severe pain, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "shoulder_injury",
+      "patterns": [
+        "I have a shoulder injury",
+        "how to treat a shoulder injury?",
+        "first aid for shoulder injuries",
+        "what to do for a dislocated shoulder?",
+        "pain from shoulder injury response",
+        "monitoring shoulder injuries",
+        "call for help with shoulder injury",
+        "resting an injured shoulder",
+        "when to seek help for shoulder injuries",
+        "caring for shoulder injuries",
+        "signs of shoulder injury",
+        "preventing shoulder injuries",
+        "treatment options for shoulder injuries",
+        "shoulder injury assessment",
+        "rehabilitation for shoulder injuries"
+      ],
+      "responses": [
+        "To assist someone with a shoulder injury:\n\n1. **Keep the Arm Still**: Advise them to avoid moving the injured shoulder.\n2. **Apply Ice**: Use ice packs on the shoulder to reduce swelling and pain.\n3. **Support the Arm**: Encourage them to support the injured arm with a sling or by holding it close to the body.\n4. **Monitor Symptoms**: Watch for any signs of severe pain or difficulty moving the arm.\n5. **Seek Medical Help**: If there is a dislocation or severe injury, consult a healthcare professional immediately."
+      ]
+    },
+
+    {
+      "tag": "back_pain",
+      "patterns": [
+        "I have back pain",
+        "how to treat back pain?",
+        "back pain relief methods",
+        "what to do for back pain?",
+        "pain in my lower back",
+        "upper back pain response",
+        "monitoring back pain",
+        "call for help with back pain",
+        "chronic back pain solutions",
+        "acute back pain symptoms",
+        "preventing back injuries",
+        "exercises for back pain",
+        "back pain assessment",
+        "when to seek help for back pain",
+        "caring for back injuries"
+      ],
+      "responses": [
+        "To assist someone with back pain:\n\n1. **Encourage Rest**: Advise them to rest in a comfortable position.\n2. **Apply Heat or Cold**: Use a hot or cold compress on the affected area.\n3. **Gentle Stretching**: Encourage gentle stretching or walking if it doesn’t cause pain.\n4. **Over-the-Counter Pain Relievers**: Recommend appropriate pain relievers if needed.\n5. **Seek Medical Help**: If pain persists or is severe, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "facial_injuries",
+      "patterns": [
+        "I have a facial injury",
+        "how to treat facial injuries?",
+        "first aid for facial injuries",
+        "what to do for a cut on my face?",
+        "swelling on my face response",
+        "monitoring facial injuries",
+        "call for help with facial injuries",
+        "caring for facial cuts",
+        "when to seek help for facial injuries",
+        "signs of serious facial injury",
+        "preventing facial injuries",
+        "treatment options for facial injuries",
+        "facial injury assessment",
+        "recovery from facial injuries",
+        "protecting facial injuries"
+      ],
+      "responses": [
+        "To assist someone with a facial injury:\n\n1. **Stay Calm**: Reassure the person and keep them calm.\n2. **Control Bleeding**: Apply gentle pressure with a clean cloth to control any bleeding.\n3. **Clean the Area**: Rinse the area with clean water to remove debris.\n4. **Apply a Cold Compress**: Use a cold pack to reduce swelling.\n5. **Seek Medical Help**: If there are deep cuts or signs of fracture, seek professional medical assistance."
+      ]
+    },
+    {
+      "tag": "concussion_from_fall",
+      "patterns": [
+        "I might have a concussion",
+        "how to treat a concussion?",
+        "first aid for concussion",
+        "what to do after a fall?",
+        "head injury response",
+        "monitoring for concussion symptoms",
+        "call for help with head injury",
+        "caring for someone with a concussion",
+        "when to seek help for a concussion",
+        "signs of a concussion",
+        "preventing concussions",
+        "treatment options for concussions",
+        "concussion assessment",
+        "recovery after a concussion",
+        "post-concussion care",
+        "head injury precautions"
+      ],
+      "responses": [
+        "To assist someone suspected of having a concussion:\n\n1. **Keep Them Still**: Encourage the person to remain still and calm.\n2. **Monitor Symptoms**: Observe for symptoms like confusion, headache, or dizziness.\n3. **Avoid Screen Time**: Limit exposure to screens to reduce symptoms.\n4. **Seek Medical Help**: If symptoms worsen or they lose consciousness, call for emergency medical assistance.\n5. **Rest and Recover**: Ensure they get plenty of rest and follow up with a healthcare provider."
+      ]
+    },
+    {
+      "tag": "road_traffic_accident",
+      "patterns": [
+        "I was in a road accident",
+        "how to assist after a car accident?",
+        "first aid for road traffic accidents",
+        "what to do if someone is injured in an accident?",
+        "call for help after an accident",
+        "monitoring injuries from accidents",
+        "signs of serious injuries after a crash",
+        "road traffic accident response",
+        "caring for accident victims",
+        "when to seek help after an accident",
+        "preventing further injuries at the scene",
+        "accident assessment",
+        "staying safe at an accident scene",
+        "assisting in road traffic incidents",
+        "first responders advice"
+      ],
+      "responses": [
+        "To assist someone after a road traffic accident:\n\n1. **Ensure Safety**: Ensure the scene is safe before approaching.\n2. **Call Emergency Services**: Immediately call for medical assistance.\n3. **Do Not Move Victims**: Unless there is a risk of fire, do not move injured persons.\n4. **Provide Basic First Aid**: If trained, administer basic first aid as needed.\n5. **Stay Calm and Provide Support**: Offer reassurance until help arrives."
+      ]
+    },
+    {
+      "tag": "sports_injury",
+      "patterns": [
+        "I have a sports injury",
+        "how to treat a sports injury?",
+        "first aid for sports injuries",
+        "what to do for a sprain?",
+        "monitoring sports injuries response",
+        "call for help with sports injuries",
+        "caring for athletes with injuries",
+        "when to seek help for sports injuries",
+        "signs of sports injuries",
+        "preventing sports injuries",
+        "treatment options for sports injuries",
+        "sports injury assessment",
+        "rehabilitation after sports injuries",
+        "common sports injuries care",
+        "managing sports injuries"
+      ],
+      "responses": [
+        "To assist someone with a sports injury:\n\n1. **Rest the Injured Area**: Advise them to rest and avoid further activity.\n2. **Ice the Injury**: Apply ice to reduce swelling and pain.\n3. **Compression**: Use an elastic bandage to provide compression and support.\n4. **Elevate the Injury**: Encourage elevation of the injured area.\n5. **Seek Medical Help**: If pain or swelling persists, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "head_injury",
+      "patterns": [
+        "I have a head injury",
+        "how to treat a head injury?",
+        "first aid for head injuries",
+        "what to do if someone hits their head?",
+        "monitoring head injury symptoms",
+        "call for help with head injuries",
+        "caring for someone with a head injury",
+        "when to seek help for head injuries",
+        "signs of serious head injury",
+        "preventing head injuries",
+        "treatment options for head injuries",
+        "head injury assessment",
+        "recovery after head injuries",
+        "observing for concussion signs",
+        "emergency response for head injuries"
+      ],
+      "responses": [
+        "To assist someone with a head injury:\n\n1. **Stay Calm**: Keep the person calm and reassured.\n2. **Monitor Symptoms**: Watch for symptoms like confusion, dizziness, or bleeding.\n3. **Avoid Moving the Person**: Do not move them unless necessary for safety.\n4. **Apply a Cold Compress**: Use a cold pack to reduce swelling.\n5. **Seek Medical Help**: If there are serious symptoms or unconsciousness, call for emergency assistance."
+      ]
+    },
+    {
+      "tag": "overheating",
+      "patterns": [
+        "I'm overheating during exercise",
+        "how to treat overheating?",
+        "first aid for overheating",
+        "what to do if someone is overheating?",
+        "signs of heat exhaustion response",
+        "monitoring overheating symptoms",
+        "call for help with heat exhaustion",
+        "caring for someone overheating",
+        "when to seek help for overheating",
+        "preventing overheating",
+        "treatment options for heat exhaustion",
+        "heat exhaustion assessment",
+        "rehydration after overheating",
+        "managing body temperature",
+        "exercising safely in heat"
+      ],
+      "responses": [
+        "To assist someone who is overheating:\n\n1. **Move to a Cooler Area**: Get them to a shaded or air-conditioned location.\n2. **Hydrate**: Provide cool water or sports drinks to rehydrate.\n3. **Cool the Body**: Use wet cloths or ice packs on pulse points (wrists, neck, ankles).\n4. **Loosen Clothing**: Encourage them to remove or loosen tight clothing.\n5. **Seek Medical Help**: If symptoms do not improve or worsen, seek medical assistance."
+      ]
+    },
+    {
+      "tag": "sudden_fatigue",
+      "patterns": [
+        "I'm feeling suddenly fatigued",
+        "how to deal with sudden fatigue?",
+        "first aid for sudden fatigue",
+        "what to do if someone feels faint?",
+        "monitoring fatigue symptoms",
+        "call for help with sudden fatigue",
+        "caring for someone who is fatigued",
+        "when to seek help for sudden fatigue",
+        "preventing fatigue in activities",
+        "signs of severe fatigue",
+        "fatigue assessment",
+        "managing energy levels",
+        "recovery from sudden fatigue",
+        "resting techniques",
+        "coping with fatigue"
+      ],
+      "responses": [
+        "To assist someone experiencing sudden fatigue:\n\n1. **Encourage Rest**: Have them sit or lie down in a comfortable position.\n2. **Hydrate**: Offer water to help rehydrate.\n3. **Monitor Symptoms**: Watch for any signs of more serious issues (like fainting).\n4. **Provide Snacks**: If safe, offer a light snack to boost energy.\n5. **Seek Medical Help**: If fatigue persists or is severe, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "hemorrhaging",
+      "patterns": [
+        "I am bleeding heavily",
+        "how to treat hemorrhaging?",
+        "first aid for severe bleeding",
+        "what to do for a bleeding wound?",
+        "monitoring hemorrhage symptoms",
+        "call for help with severe bleeding",
+        "caring for someone who is hemorrhaging",
+        "when to seek help for hemorrhaging",
+        "preventing further blood loss",
+        "signs of serious bleeding",
+        "hemorrhage assessment",
+        "controlling blood flow",
+        "wound dressing techniques",
+        "emergency response to bleeding",
+        "managing severe bleeding"
+      ],
+      "responses": [
+        "To assist someone who is hemorrhaging:\n\n1. **Call Emergency Services**: Immediately call for medical assistance.\n2. **Apply Direct Pressure**: Use a clean cloth to apply firm pressure to the wound.\n3. **Elevate the Wound**: If possible, raise the injured area above heart level.\n4. **Do Not Remove Objects**: If an object is embedded, do not remove it; apply pressure around it.\n5. **Continue to Monitor**: Keep pressure on the wound until help arrives."
+      ]
+    },
+    {
+      "tag": "blood_in_urine",
+      "patterns": [
+        "I see blood in my urine",
+        "how to treat blood in urine?",
+        "first aid for hematuria",
+        "what to do if I have blood in my urine?",
+        "monitoring symptoms of blood in urine",
+        "call for help with blood in urine",
+        "caring for someone with hematuria",
+        "when to seek help for blood in urine",
+        "preventing urinary tract issues",
+        "signs of urinary bleeding",
+        "hematuria assessment",
+        "managing urinary symptoms",
+        "emergency response to blood in urine",
+        "consulting a urologist",
+        "recognizing serious urinary issues"
+      ],
+      "responses": [
+        "To assist someone with blood in urine:\n\n1. **Stay Calm**: Reassure the person and keep them calm.\n2. **Encourage Rest**: Advise them to rest and avoid strenuous activities.\n3. **Monitor Symptoms**: Observe for additional symptoms, such as pain or fever.\n4. **Seek Medical Help**: It is essential to see a healthcare professional immediately for proper diagnosis and treatment.\n5. **Document Symptoms**: Encourage them to note any other symptoms to inform the doctor."
+      ]
+    },
+
+    {
+      "tag": "blood_in_stool",
+      "patterns": [
+        "I see blood in my stool",
+        "how to treat blood in stool?",
+        "first aid for blood in stool",
+        "what to do if I have blood in my stool?",
+        "monitoring symptoms of blood in stool",
+        "call for help with blood in stool",
+        "caring for someone with rectal bleeding",
+        "when to seek help for blood in stool",
+        "signs of gastrointestinal bleeding",
+        "preventing digestive issues",
+        "hemorrhoid assessment",
+        "managing bowel health",
+        "emergency response to blood in stool",
+        "consulting a gastroenterologist",
+        "recognizing serious digestive problems"
+      ],
+      "responses": [
+        "To assist someone with blood in stool:\n\n1. **Stay Calm**: Reassure the person and keep them calm.\n2. **Encourage Rest**: Advise them to rest and avoid any straining.\n3. **Monitor Symptoms**: Observe for additional symptoms, such as pain or dizziness.\n4. **Seek Medical Help**: It is essential to see a healthcare professional immediately for proper diagnosis and treatment.\n5. **Document Symptoms**: Encourage them to note any other symptoms to inform the doctor."
+      ]
+    },
+    {
+      "tag": "bloating",
+      "patterns": [
+        "I have bloating",
+        "how to relieve bloating?",
+        "first aid for bloating",
+        "what to do if my stomach is bloated?",
+        "monitoring symptoms of bloating",
+        "call for help with severe bloating",
+        "caring for someone with abdominal bloating",
+        "when to seek help for bloating",
+        "signs of gastrointestinal distress",
+        "preventing bloating",
+        "bloating assessment",
+        "managing digestive issues",
+        "emergency response to bloating",
+        "diet changes for bloating",
+        "recognizing serious digestive problems"
+      ],
+      "responses": [
+        "To assist someone with bloating:\n\n1. **Encourage Movement**: Gentle walking can help relieve bloating.\n2. **Apply Heat**: A warm compress on the abdomen can ease discomfort.\n3. **Avoid Carbonated Drinks**: Suggest avoiding fizzy drinks which can increase bloating.\n4. **Monitor Symptoms**: Watch for severe pain or changes in bowel habits.\n5. **Seek Medical Help**: If symptoms persist or worsen, consult a healthcare professional."
+      ]
+    },
+    {
+      "tag": "jaundice",
+      "patterns": [
+        "I have jaundice",
+        "how to treat jaundice?",
+        "first aid for jaundice symptoms",
+        "what to do if I have yellow skin?",
+        "monitoring symptoms of jaundice",
+        "call for help with jaundice",
+        "caring for someone with jaundice",
+        "when to seek help for jaundice",
+        "signs of liver issues",
+        "preventing liver problems",
+        "jaundice assessment",
+        "managing liver health",
+        "emergency response to jaundice",
+        "consulting a hepatologist",
+        "recognizing serious liver conditions"
+      ],
+      "responses": [
+        "To assist someone with jaundice:\n\n1. **Stay Calm**: Reassure the person and keep them calm.\n2. **Monitor Symptoms**: Observe for additional symptoms such as abdominal pain or fatigue.\n3. **Seek Medical Help**: It is crucial to consult a healthcare professional for proper diagnosis and treatment.\n4. **Document Symptoms**: Encourage them to note any changes in urine or stool color.\n5. **Avoid Alcohol**: Advise against alcohol consumption until evaluated by a doctor."
+      ]
+    },
+    {
+      "tag": "severe_cough",
+      "patterns": [
+        "I have a severe cough",
+        "how to treat a severe cough?",
+        "first aid for severe coughing",
+        "what to do if I can't stop coughing?",
+        "monitoring cough symptoms",
+        "call for help with severe cough",
+        "caring for someone with a persistent cough",
+        "when to seek help for a cough",
+        "signs of respiratory issues",
+        "preventing coughs",
+        "cough assessment",
+        "managing respiratory health",
+        "emergency response to severe cough",
+        "consulting a pulmonologist",
+        "recognizing serious respiratory conditions"
+      ],
+      "responses": [
+        "To assist someone with a severe cough:\n\n1. **Encourage Calmness**: Reassure the person to help reduce stress.\n2. **Stay Hydrated**: Offer water or warm beverages to soothe the throat.\n3. **Monitor Symptoms**: Observe for difficulty breathing or chest pain.\n4. **Seek Medical Help**: If the cough is severe or persistent, consult a healthcare professional.\n5. **Avoid Irritants**: Keep the person away from smoke or strong odors."
+      ]
+    },
+    {
+      "tag": "difficulty_breathing",
+      "patterns": [
+        "I'm having difficulty breathing",
+        "how to assist with breathing difficulties?",
+        "first aid for breathing issues",
+        "what to do if I can't breathe well?",
+        "monitoring symptoms of breathing trouble",
+        "call for help with breathing difficulties",
+        "caring for someone with respiratory distress",
+        "when to seek help for breathing issues",
+        "signs of asthma or anaphylaxis",
+        "preventing breathing problems",
+        "breathing assessment",
+        "managing respiratory health",
+        "emergency response to breathing difficulties",
+        "consulting a respiratory therapist",
+        "recognizing serious respiratory emergencies"
+      ],
+      "responses": [
+        "To assist someone with difficulty breathing:\n\n1. **Stay Calm**: Keep the person calm and encourage slow, deep breaths.\n2. **Loosen Tight Clothing**: Remove or loosen any tight clothing.\n3. **Sit Them Upright**: Help them sit in an upright position to ease breathing.\n4. **Seek Medical Help**: If breathing does not improve, call for emergency medical assistance immediately.\n5. **Monitor Symptoms**: Watch for signs of confusion or bluish lips."
+      ]
+    },
+    {
+      "tag": "loss_of_consciousness",
+      "patterns": [
+        "I've lost consciousness",
+        "how to treat loss of consciousness?",
+        "first aid for fainting",
+        "what to do if someone faints?",
+        "monitoring fainting symptoms",
+        "call for help with unconsciousness",
+        "caring for someone who is fainted",
+        "when to seek help for fainting",
+        "signs of serious fainting",
+        "preventing fainting spells",
+        "fainting assessment",
+        "managing recovery from fainting",
+        "emergency response to fainting",
+        "consulting a doctor after fainting",
+        "recognizing serious medical issues"
+      ],
+      "responses": [
+        "To assist someone who has lost consciousness:\n\n1. **Check Responsiveness**: Gently tap and shout to see if they respond.\n2. **Call Emergency Services**: If they do not respond, call for medical help immediately.\n3. **Position Safely**: If they are unconscious, place them in the recovery position to keep the airway clear.\n4. **Monitor Vital Signs**: Keep an eye on their breathing and pulse.\n5. **Stay with Them**: Remain until help arrives and provide any necessary information."
+      ]
+    },
+    {
+      "tag": "confusion_disorientation",
+      "patterns": [
+        "I'm feeling confused",
+        "how to deal with confusion?",
+        "first aid for disorientation",
+        "what to do if someone is disoriented?",
+        "monitoring symptoms of confusion",
+        "call for help with confusion",
+        "caring for someone who is confused",
+        "when to seek help for confusion",
+        "signs of serious disorientation",
+        "preventing confusion",
+        "confusion assessment",
+        "managing cognitive issues",
+        "emergency response to confusion",
+        "consulting a neurologist",
+        "recognizing serious medical conditions"
+      ],
+      "responses": [
+        "To assist someone who is confused or disoriented:\n\n1. **Stay Calm**: Reassure them and keep the environment calm.\n2. **Assess Safety**: Ensure they are in a safe place to avoid injury.\n3. **Monitor Symptoms**: Watch for additional symptoms such as slurred speech or severe disorientation.\n4. **Seek Medical Help**: If confusion persists, call for medical assistance.\n5. **Document Observations**: Note any other changes in behavior to share with healthcare providers."
+      ]
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "I have a high fever",
+        "how to treat a fever?",
+        "first aid for high temperature",
+        "what to do if my temperature is high?",
+        "monitoring fever symptoms",
+        "call for help with high fever",
+        "caring for someone with a fever",
+        "when to seek help for a fever",
+        "signs of severe fever",
+        "preventing high fevers",
+        "fever assessment",
+        "managing temperature issues",
+        "emergency response to fever",
+        "consulting a doctor for fever",
+        "recognizing serious fever conditions"
+      ],
+      "responses": [
+        "To assist someone with a high fever:\n\n1. **Stay Calm**: Reassure them and keep them comfortable.\n2. **Monitor Temperature**: Use a thermometer to check their temperature regularly.\n3. **Hydration**: Encourage them to drink plenty of fluids to stay hydrated.\n4. **Seek Medical Help**: If the fever is very high or persists, consult a healthcare professional.\n5. **Cool Down**: Use a damp cloth or sponge to help lower their temperature if necessary."
+      ]
+    },
+    {
+      "tag": "chills",
+      "patterns": [
+        "I'm feeling chills",
+        "how to treat chills?",
+        "first aid for feeling cold",
+        "what to do if I have chills?",
+        "monitoring symptoms of chills",
+        "call for help with severe chills",
+        "caring for someone with chills",
+        "when to seek help for chills",
+        "signs of serious chills",
+        "preventing chills",
+        "chill assessment",
+        "managing temperature issues",
+        "emergency response to chills",
+        "consulting a doctor for chills",
+        "recognizing serious health conditions"
+      ],
+      "responses": [
+        "To assist someone experiencing chills:\n\n1. **Provide Warmth**: Use blankets or warm clothing to help them feel comfortable.\n2. **Monitor Temperature**: Check if they have a fever or other symptoms.\n3. **Encourage Hydration**: Offer warm fluids like tea or soup.\n4. **Seek Medical Help**: If chills are severe or accompanied by other concerning symptoms, consult a healthcare professional.\n5. **Document Symptoms**: Keep track of any additional symptoms to inform medical providers."
+      ]
+    },
+    {
+      "tag": "infected_wound",
+      "patterns": [
+        "I think my wound is infected",
+        "how to treat an infected wound?",
+        "first aid for wound infection",
+        "what to do if a wound is red and swollen?",
+        "monitoring symptoms of infection",
+        "call for help with infected wounds",
+        "caring for someone with a wound infection",
+        "when to seek help for an infected wound",
+        "signs of wound infection",
+        "preventing infections",
+        "wound care assessment",
+        "managing infection symptoms",
+        "emergency response to infected wounds",
+        "consulting a doctor for infection",
+        "recognizing serious infection issues"
+      ],
+      "responses": [
+        "To assist someone with an infected wound:\n\n1. **Keep the Wound Clean**: Gently clean the area with soap and water.\n2. **Apply Antibiotic Ointment**: Use an over-the-counter antibiotic ointment if available.\n3. **Cover the Wound**: Use a sterile bandage to protect the wound from further contamination.\n4. **Monitor Symptoms**: Watch for increased redness, swelling, or pus.\n5. **Seek Medical Help**: If the infection worsens or does not improve, consult a healthcare professional."
+      ]
+    },
+
+    {
+      "tag": "skin_rash",
+      "patterns": [
+        "I have a skin rash",
+        "how to treat a skin rash?",
+        "first aid for skin rash",
+        "what to do if I develop a rash?",
+        "monitoring symptoms of a rash",
+        "call for help with a skin rash",
+        "caring for someone with a rash",
+        "when to seek help for a rash",
+        "signs of an allergic reaction",
+        "preventing skin rashes",
+        "rash assessment",
+        "managing skin irritation",
+        "emergency response to rashes",
+        "consulting a dermatologist",
+        "recognizing serious skin conditions"
+      ],
+      "responses": [
+        "To assist someone with a skin rash:\n\n1. **Stay Calm**: Reassure them and avoid panic.\n2. **Identify Triggers**: Ask if they have encountered any new products or foods.\n3. **Avoid Scratching**: Encourage them not to scratch to prevent further irritation.\n4. **Seek Medical Help**: If the rash worsens or is accompanied by other symptoms, consult a healthcare professional.\n5. **Document Symptoms**: Note any additional symptoms or changes to share with a doctor."
+      ]
+    },
+    {
+      "tag": "hives",
+      "patterns": [
+        "I have hives",
+        "how to treat hives?",
+        "first aid for hives",
+        "what to do if I break out in hives?",
+        "monitoring symptoms of hives",
+        "call for help with hives",
+        "caring for someone with hives",
+        "when to seek help for hives",
+        "signs of an allergic reaction",
+        "preventing hives",
+        "hives assessment",
+        "managing allergic reactions",
+        "emergency response to hives",
+        "consulting an allergist",
+        "recognizing serious allergic conditions"
+      ],
+      "responses": [
+        "To assist someone with hives:\n\n1. **Stay Calm**: Reassure them and help them remain calm.\n2. **Avoid Known Triggers**: Identify and avoid any known allergens.\n3. **Apply Cool Compresses**: Use a cool cloth to soothe the skin.\n4. **Seek Medical Help**: If hives are widespread or accompanied by difficulty breathing, seek emergency assistance immediately.\n5. **Document Symptoms**: Keep a record of when the hives appeared and any related food or activities."
+      ]
+    },
+    {
+      "tag": "frostbite",
+      "patterns": [
+        "I think I have frostbite",
+        "how to treat frostbite?",
+        "first aid for frostbite",
+        "what to do if my skin is freezing?",
+        "monitoring symptoms of frostbite",
+        "call for help with frostbite",
+        "caring for someone with frostbite",
+        "when to seek help for frostbite",
+        "signs of frostbite",
+        "preventing frostbite",
+        "frostbite assessment",
+        "managing cold injuries",
+        "emergency response to frostbite",
+        "consulting a doctor for frostbite",
+        "recognizing severe cold injuries"
+      ],
+      "responses": [
+        "To assist someone with frostbite:\n\n1. **Get to a Warm Place**: Move the person indoors to a warm environment.\n2. **Rewarm Gradually**: Use warm (not hot) water to soak the affected areas.\n3. **Avoid Rubbing**: Do not rub the frostbitten area as it can cause more damage.\n4. **Seek Medical Help**: If symptoms persist or worsen, call for medical assistance immediately.\n5. **Monitor Symptoms**: Watch for blisters or changes in color."
+      ]
+    },
+    {
+      "tag": "gangrene",
+      "patterns": [
+        "I think I have gangrene",
+        "how to treat gangrene?",
+        "first aid for gangrene symptoms",
+        "what to do if I have tissue death?",
+        "monitoring symptoms of gangrene",
+        "call for help with gangrene",
+        "caring for someone with gangrene",
+        "when to seek help for gangrene",
+        "signs of tissue infection",
+        "preventing gangrene",
+        "gangrene assessment",
+        "managing severe infections",
+        "emergency response to gangrene",
+        "consulting a surgeon",
+        "recognizing serious infection signs"
+      ],
+      "responses": [
+        "To assist someone with suspected gangrene:\n\n1. **Seek Immediate Medical Help**: Gangrene is a medical emergency; call for help right away.\n2. **Keep the Area Clean**: If safe, cover the affected area with a sterile dressing until help arrives.\n3. **Do Not Apply Heat**: Avoid applying heat to the affected area as it can worsen the condition.\n4. **Monitor Symptoms**: Watch for spreading redness or fever.\n5. **Document Observations**: Note any additional symptoms to share with healthcare providers."
+      ]
+    },
+    {
+      "tag": "shoulder_dislocation",
+      "patterns": [
+        "I think my shoulder is dislocated",
+        "how to treat a shoulder dislocation?",
+        "first aid for shoulder injury",
+        "what to do if my shoulder pops out?",
+        "monitoring symptoms of a dislocated shoulder",
+        "call for help with shoulder dislocation",
+        "caring for someone with a dislocated shoulder",
+        "when to seek help for shoulder injuries",
+        "signs of a dislocated joint",
+        "preventing shoulder injuries",
+        "shoulder dislocation assessment",
+        "managing joint injuries",
+        "emergency response to dislocated shoulder",
+        "consulting an orthopedic doctor",
+        "recognizing serious joint issues"
+      ],
+      "responses": [
+        "To assist someone with a dislocated shoulder:\n\n1. **Keep the Arm Still**: Advise them not to move the arm to prevent further injury.\n2. **Apply Ice**: Use a cold pack to reduce swelling.\n3. **Seek Medical Help**: It is crucial to get professional medical assistance for proper treatment.\n4. **Monitor Symptoms**: Observe for any signs of nerve or blood vessel damage.\n5. **Document the Incident**: Note how the injury occurred to inform medical professionals."
+      ]
+    },
+    {
+      "tag": "pelvic_injury",
+      "patterns": [
+        "I have a pelvic injury",
+        "how to treat a pelvic injury?",
+        "first aid for pelvic pain",
+        "what to do if I suspect a pelvic injury?",
+        "monitoring symptoms of pelvic injury",
+        "call for help with pelvic injury",
+        "caring for someone with pelvic pain",
+        "when to seek help for pelvic injuries",
+        "signs of serious pelvic injury",
+        "preventing pelvic injuries",
+        "pelvic injury assessment",
+        "managing hip pain",
+        "emergency response to pelvic injury",
+        "consulting an orthopedic specialist",
+        "recognizing serious bone issues"
+      ],
+      "responses": [
+        "To assist someone with a pelvic injury:\n\n1. **Keep Them Still**: Encourage the person to remain still to avoid further injury.\n2. **Seek Medical Help**: Call for emergency medical assistance immediately.\n3. **Monitor Symptoms**: Observe for severe pain, swelling, or inability to move.\n4. **Avoid Weight Bearing**: Do not allow them to put weight on the injured area.\n5. **Document Symptoms**: Note any additional symptoms to inform healthcare providers."
+      ]
+    },
+    {
+      "tag": "child_choking",
+      "patterns": [
+        "My child is choking",
+        "how to help a choking child?",
+        "first aid for choking",
+        "what to do if my child can't breathe?",
+        "monitoring choking symptoms in kids",
+        "call for help with choking",
+        "caring for a choking child",
+        "when to seek help for choking",
+        "signs of choking in children",
+        "preventing choking hazards",
+        "choking assessment",
+        "managing child emergencies",
+        "emergency response to choking",
+        "consulting a pediatrician",
+        "recognizing serious choking signs"
+      ],
+      "responses": [
+        "To assist a choking child:\n\n1. **Stay Calm**: Reassure the child and keep them calm.\n2. **Encourage Coughing**: If they can cough, encourage them to do so to expel the object.\n3. **Perform Back Blows**: If they cannot cough, deliver 5 back blows between the shoulder blades.\n4. **Use Abdominal Thrusts**: If back blows don't work, perform 5 abdominal thrusts.\n5. **Seek Medical Help**: If the object is not expelled, call for emergency assistance immediately."
+      ]
+    },
+    {
+      "tag": "elderly_falls",
+      "patterns": [
+        "My elderly parent fell",
+        "how to help after a fall?",
+        "first aid for falls in seniors",
+        "what to do if an elderly person falls?",
+        "monitoring symptoms after a fall",
+        "call for help with elderly falls",
+        "caring for an elderly person who fell",
+        "when to seek help after a fall",
+        "signs of serious injury from a fall",
+        "preventing falls in elderly",
+        "fall assessment",
+        "managing recovery from falls",
+        "emergency response to elderly falls",
+        "consulting a geriatric specialist",
+        "recognizing serious injury signs"
+      ],
+      "responses": [
+        "To assist an elderly person after a fall:\n\n1. **Stay Calm**: Reassure them and keep them still.\n2. **Assess for Injuries**: Check for any visible injuries and ask if they are in pain.\n3. **Call for Help**: If they cannot get up, call for emergency assistance.\n4. **Monitor Vital Signs**: Keep an eye on their breathing and responsiveness.\n5. **Document the Fall**: Note the circumstances of the fall to inform healthcare providers."
+      ]
+    },
+    {
+      "tag": "post_surgery_complications",
+      "patterns": [
+        "I have complications after surgery",
+        "how to manage post-surgery issues?",
+        "first aid for surgery complications",
+        "what to do if I feel unwell after surgery?",
+        "monitoring symptoms after surgery",
+        "call for help with surgery complications",
+        "caring for someone post-surgery",
+        "when to seek help after surgery",
+        "signs of serious complications after surgery",
+        "preventing post-surgery issues",
+        "surgery recovery assessment",
+        "managing surgical recovery",
+        "emergency response to surgery complications",
+        "consulting a surgeon",
+        "recognizing serious recovery signs"
+      ],
+      "responses": [
+        "To assist someone with post-surgery complications:\n\n1. **Monitor Symptoms**: Keep an eye on any unusual symptoms like fever or excessive bleeding.\n2. **Encourage Rest**: Ensure they rest and follow any post-operative care instructions.\n3. **Seek Medical Help**: If symptoms worsen, contact their healthcare provider immediately.\n4. **Document Symptoms**: Record any changes in their condition to inform medical professionals.\n5. **Provide Comfort**: Help them stay comfortable and reassure them during recovery."
+      ]
+    },
+    {
+      "tag": "diabetic_emergency",
+      "patterns": [
+        "I think I have a diabetic emergency",
+        "how to treat low blood sugar?",
+        "first aid for diabetes",
+        "what to do if someone is hypoglycemic?",
+        "monitoring symptoms of diabetes",
+        "call for help with diabetes issues",
+        "caring for someone with diabetes",
+        "when to seek help for diabetes emergencies",
+        "signs of high or low blood sugar",
+        "preventing diabetic emergencies",
+        "diabetes management assessment",
+        "managing blood sugar levels",
+        "emergency response to diabetes issues",
+        "consulting an endocrinologist",
+        "recognizing serious diabetes symptoms"
+      ],
+      "responses": [
+        "To assist someone with a diabetic emergency:\n\n1. **Check Blood Sugar**: If possible, check their blood sugar levels.\n2. **Provide Quick Sugar**: If they are hypoglycemic, offer them sugary food or drink (like juice or candy).\n3. **Stay Calm**: Reassure them and keep them calm.\n4. **Seek Medical Help**: If they do not improve quickly or are unresponsive, call for emergency assistance.\n5. **Document Symptoms**: Note the symptoms they exhibited for medical reference."
+      ]
+    },
+
+    {
+      "tag": "eclampsia",
+      "patterns": [
+        "I think I have eclampsia",
+        "how to recognize eclampsia symptoms?",
+        "first aid for eclampsia",
+        "what to do if someone has a seizure during pregnancy?",
+        "monitoring symptoms of eclampsia",
+        "call for help with eclampsia",
+        "caring for a pregnant woman with eclampsia",
+        "when to seek help for eclampsia",
+        "signs of severe pregnancy complications",
+        "preventing eclampsia",
+        "eclampsia assessment",
+        "managing pregnancy emergencies",
+        "emergency response to eclampsia",
+        "consulting an obstetrician",
+        "recognizing serious pregnancy symptoms"
+      ],
+      "responses": [
+        "To assist someone experiencing eclampsia:\n\n1. **Stay Calm**: Reassure them and those around you.\n2. **Call Emergency Services**: Eclampsia requires immediate medical attention.\n3. **Ensure Safety**: Move any dangerous objects away from the person.\n4. **Monitor Symptoms**: Note the duration and frequency of seizures.\n5. **Document Details**: Record any relevant medical history or symptoms for healthcare providers."
+      ]
+    },
+    {
+      "tag": "sickle_cell_crisis",
+      "patterns": [
+        "I have sickle cell crisis symptoms",
+        "how to treat a sickle cell crisis?",
+        "first aid for sickle cell pain",
+        "what to do if I have a sickle cell crisis?",
+        "monitoring symptoms of sickle cell crisis",
+        "call for help with sickle cell crisis",
+        "caring for someone in sickle cell crisis",
+        "when to seek help for sickle cell crisis",
+        "signs of severe pain in sickle cell patients",
+        "preventing sickle cell complications",
+        "sickle cell crisis assessment",
+        "managing pain in sickle cell disease",
+        "emergency response to sickle cell crisis",
+        "consulting a hematologist",
+        "recognizing serious sickle cell symptoms"
+      ],
+      "responses": [
+        "To assist someone in a sickle cell crisis:\n\n1. **Stay Calm**: Reassure them and help them find a comfortable position.\n2. **Provide Pain Relief**: Encourage them to take prescribed pain medication if available.\n3. **Encourage Hydration**: Offer fluids to help prevent dehydration.\n4. **Seek Medical Help**: If pain persists or worsens, call for medical assistance immediately.\n5. **Document Symptoms**: Record the severity and duration of the pain for healthcare providers."
+      ]
+    },
+    {
+      "tag": "gout_attack",
+      "patterns": [
+        "I have a gout attack",
+        "how to treat gout?",
+        "first aid for gout pain",
+        "what to do during a gout flare-up?",
+        "monitoring symptoms of gout",
+        "call for help with gout",
+        "caring for someone with gout",
+        "when to seek help for gout",
+        "signs of a severe gout attack",
+        "preventing gout attacks",
+        "gout assessment",
+        "managing uric acid levels",
+        "emergency response to gout pain",
+        "consulting a rheumatologist",
+        "recognizing serious gout symptoms"
+      ],
+      "responses": [
+        "To assist someone during a gout attack:\n\n1. **Stay Calm**: Reassure them and help them rest the affected joint.\n2. **Apply Ice**: Use a cold pack to reduce swelling and pain.\n3. **Encourage Rest**: Advise them to keep the affected joint elevated and immobile.\n4. **Seek Medical Help**: If pain is severe or persists, consult a healthcare professional.\n5. **Document Symptoms**: Note the duration and intensity of the pain for medical reference."
+      ]
+    },
+    {
+      "tag": "lifting_injuries",
+      "patterns": [
+        "I have a lifting injury",
+        "how to treat lifting injuries?",
+        "first aid for back injuries",
+        "what to do if I hurt my back while lifting?",
+        "monitoring symptoms of a lifting injury",
+        "call for help with lifting injuries",
+        "caring for someone with a back injury",
+        "when to seek help for lifting injuries",
+        "signs of a serious back injury",
+        "preventing lifting injuries",
+        "lifting injury assessment",
+        "managing back pain",
+        "emergency response to lifting injuries",
+        "consulting a chiropractor",
+        "recognizing serious spinal issues"
+      ],
+      "responses": [
+        "To assist someone with a lifting injury:\n\n1. **Stay Calm**: Reassure them and encourage them to stay still.\n2. **Assess for Severity**: Check for signs of serious injury, like numbness or inability to move.\n3. **Apply Ice**: Use a cold pack to reduce swelling.\n4. **Seek Medical Help**: If pain is severe or worsens, call for medical assistance immediately.\n5. **Document Symptoms**: Record the nature of the injury and any other symptoms for healthcare providers."
+      ]
+    },
+    {
+      "tag": "joint_swelling",
+      "patterns": [
+        "I have swollen joints",
+        "how to treat joint swelling?",
+        "first aid for swollen joints",
+        "what to do if my joints are swollen?",
+        "monitoring symptoms of joint swelling",
+        "call for help with joint issues",
+        "caring for someone with swollen joints",
+        "when to seek help for joint swelling",
+        "signs of serious joint problems",
+        "preventing joint swelling",
+        "joint swelling assessment",
+        "managing arthritis symptoms",
+        "emergency response to joint issues",
+        "consulting a rheumatologist",
+        "recognizing serious joint conditions"
+      ],
+      "responses": [
+        "To assist someone with joint swelling:\n\n1. **Stay Calm**: Reassure them and encourage rest of the affected joint.\n2. **Apply Ice**: Use a cold compress to reduce swelling and discomfort.\n3. **Elevate the Joint**: Keep the swollen joint elevated to help decrease swelling.\n4. **Seek Medical Help**: If swelling persists or is severe, consult a healthcare professional.\n5. **Document Symptoms**: Note any additional symptoms for medical reference."
+      ]
+    },
+    {
+      "tag": "muscle_tears",
+      "patterns": [
+        "I think I have a muscle tear",
+        "how to treat a muscle tear?",
+        "first aid for muscle injuries",
+        "what to do if I pull a muscle?",
+        "monitoring symptoms of a muscle tear",
+        "call for help with muscle injuries",
+        "caring for someone with a muscle tear",
+        "when to seek help for muscle injuries",
+        "signs of a serious muscle injury",
+        "preventing muscle tears",
+        "muscle tear assessment",
+        "managing recovery from muscle injuries",
+        "emergency response to muscle tears",
+        "consulting a physical therapist",
+        "recognizing serious muscle issues"
+      ],
+      "responses": [
+        "To assist someone with a muscle tear:\n\n1. **Stay Calm**: Reassure them and help them rest the injured muscle.\n2. **Apply Ice**: Use a cold pack to reduce swelling and pain.\n3. **Elevate the Area**: Keep the injured muscle elevated to minimize swelling.\n4. **Seek Medical Help**: If pain is severe or does not improve, consult a healthcare professional.\n5. **Document Symptoms**: Record the nature of the injury and any other symptoms."
+      ]
+    },
+    {
+      "tag": "tendon_injuries",
+      "patterns": [
+        "I have a tendon injury",
+        "how to treat tendon injuries?",
+        "first aid for tendon pain",
+        "what to do if I injure my tendon?",
+        "monitoring symptoms of tendon injuries",
+        "call for help with tendon injuries",
+        "caring for someone with a tendon injury",
+        "when to seek help for tendon injuries",
+        "signs of a serious tendon injury",
+        "preventing tendon injuries",
+        "tendon injury assessment",
+        "managing recovery from tendon injuries",
+        "emergency response to tendon injuries",
+        "consulting an orthopedic specialist",
+        "recognizing serious tendon issues"
+      ],
+      "responses": [
+        "To assist someone with a tendon injury:\n\n1. **Stay Calm**: Reassure them and help them rest the affected tendon.\n2. **Apply Ice**: Use a cold compress to reduce swelling.\n3. **Limit Movement**: Encourage them to avoid using the injured tendon.\n4. **Seek Medical Help**: If pain is severe or swelling does not decrease, consult a healthcare professional.\n5. **Document Symptoms**: Record the nature of the injury and any related symptoms."
+      ]
+    },
+    {
+      "tag": "hematoma",
+      "patterns": [
+        "I have a hematoma",
+        "how to treat a hematoma?",
+        "first aid for bruises",
+        "what to do if I have a lump from a bump?",
+        "monitoring symptoms of hematoma",
+        "call for help with hematomas",
+        "caring for someone with a hematoma",
+        "when to seek help for hematomas",
+        "signs of severe bruising",
+        "preventing hematomas",
+        "hematoma assessment",
+        "managing recovery from bruises",
+        "emergency response to hematomas",
+        "consulting a healthcare provider",
+        "recognizing serious bruising symptoms"
+      ],
+      "responses": [
+        "To assist someone with a hematoma:\n\n1. **Stay Calm**: Reassure them and assess the injury.\n2. **Apply Ice**: Use a cold compress to reduce swelling and pain.\n3. **Monitor for Changes**: Watch for any changes in color or size of the hematoma.\n4. **Seek Medical Help**: If the hematoma is large or causes significant pain, consult a healthcare provider.\n5. **Document Symptoms**: Record details about the injury for medical reference."
+      ]
+    },
+    {
+      "tag": "intestinal_blockage",
+      "patterns": [
+        "I think I have an intestinal blockage",
+        "how to treat intestinal blockage symptoms?",
+        "first aid for bowel obstruction",
+        "what to do if I can't keep food down?",
+        "monitoring symptoms of intestinal blockage",
+        "call for help with bowel issues",
+        "caring for someone with an intestinal blockage",
+        "when to seek help for bowel obstruction",
+        "signs of serious intestinal issues",
+        "preventing intestinal blockages",
+        "intestinal blockage assessment",
+        "managing digestive health",
+        "emergency response to intestinal blockage",
+        "consulting a gastroenterologist",
+        "recognizing serious digestive symptoms"
+      ],
+      "responses": [
+        "To assist someone with an intestinal blockage:\n\n1. **Stay Calm**: Reassure them and help them remain comfortable.\n2. **Avoid Food and Drink**: Do not give them anything to eat or drink until assessed by a professional.\n3. **Monitor Symptoms**: Keep an eye on any signs of severe pain or vomiting.\n4. **Seek Medical Help**: Call for emergency assistance if symptoms worsen.\n5. **Document Symptoms**: Record details about their condition for medical professionals."
+      ]
+    },
+    {
+      "tag": "cardiac_arrhythmia",
+      "patterns": [
+        "I think I have a cardiac arrhythmia",
+        "how to recognize arrhythmia symptoms?",
+        "first aid for heart rhythm problems",
+        "what to do if my heart feels irregular?",
+        "monitoring symptoms of cardiac arrhythmia",
+        "call for help with heart issues",
+        "caring for someone with arrhythmia",
+        "when to seek help for heart problems",
+        "signs of serious heart issues",
+        "preventing cardiac arrhythmias",
+        "cardiac arrhythmia assessment",
+        "managing heart health",
+        "emergency response to heart rhythm issues",
+        "consulting a cardiologist",
+        "recognizing serious cardiac symptoms"
+      ],
+      "responses": [
+        "To assist someone with cardiac arrhythmia:\n\n1. **Stay Calm**: Reassure them and encourage them to sit down.\n2. **Monitor Heart Rate**: If possible, check their pulse for irregularities.\n3. **Seek Medical Help**: If they feel faint, have chest pain, or the arrhythmia worsens, call for emergency assistance.\n4. **Document Symptoms**: Record any symptoms they report for medical professionals.\n5. **Stay with Them**: Remain calm and keep them comfortable until help arrives."
+      ]
+    }
+  ]
+}
